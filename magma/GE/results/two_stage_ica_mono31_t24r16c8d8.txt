@@ -1,0 +1,2276 @@
+Magma V2.26-6     Sat Aug 24 2024 12:19:00 on haswell378g0 [Seed = 44947861]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "two_stage_ica_mono31_t24r16c8d8.magma"
+---------------
+DREG computation
+---------------
+Time: 1.760
+Time: 4.160
+9
+---------------
+GB computation
+---------------
+********************
+FAUGERE F4 ALGORITHM
+********************
+Coefficient ring: GF(2147483647)
+Rank: 8
+Order: Graded Reverse Lexicographical
+NEW hash table
+Matrix kind: Generic finite field
+Generic field
+Datum size: 4
+No queue sort
+Initial length: 8
+Inhomogeneous
+
+Initial queue setup time: 0.000
+Initial queue length: 7
+
+*******
+STEP 1
+Basis length: 8, queue length: 7, step degree: 2, num pairs: 7
+Basis total mons: 360, average length: 45.000
+Number of S-polynomials: 7, different lcms: 1
+Number of pair polynomials: 7, at 45 column(s), 0.000
+Average length for reductees: 45.00 [7], reductors: 45.00 [1]
+Symbolic reduction time: 0.000, column sort time: 0.000
+7 + 1 = 8 rows / 45 columns out of 45 (100.000%)
+Density: 100% / 100% (45/r), total: 360 (0.0MB)
+Matrix construction time: 0.000
+Matrix size: 8 by 45
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.000 + 0.000 = 0.000 [7]
+    Echelonization time: 0.000
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 7 (100.0%), min deg: 2 [7], av deg: 2.0
+Degree counts: 2:7
+Queue insertion time: 0.000
+New max step: 1, time: 0.000
+Step 1 time: 0.000, [0.001], mat/total: 0.000/0.000, mem: 32.1MB (=max)
+
+*******
+STEP 2
+Basis length: 15, queue length: 12, step degree: 3, num pairs: 12
+Basis total mons: 620, average length: 41.333
+Number of S-polynomials: 12, different lcms: 11
+Number of pair polynomials: 12, at 129 column(s), 0.000
+Average length for reductees: 37.83 [12], reductors: 38.07 [59]
+Symbolic reduction time: 0.000, column sort time: 0.000
+12 + 59 = 71 rows / 164 columns out of 165 (99.394%)
+Density: 23.188% / 37.123% (38.028/r), total: 2700 (0.0MB)
+Matrix construction time: 0.000
+Matrix size: 71 by 164
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.000 + 0.000 = 0.000 [12]
+    Echelonization time: 0.000
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 12 (100.0%), min deg: 3 [12], av deg: 3.0
+Degree counts: 3:12
+Queue insertion time: 0.000
+Step 2 time: 0.000, [0.002], mat/total: 0.000/0.000, mem: 32.1MB (=max)
+
+*******
+STEP 3
+Basis length: 27, queue length: 54, step degree: 4, num pairs: 53
+Basis total mons: 1736, average length: 64.296
+Number of S-polynomials: 53, different lcms: 41
+Number of pair polynomials: 53, at 380 column(s), 0.000
+Average length for reductees: 93.13 [53], reductors: 52.25 [210]
+Symbolic reduction time: 0.000, column sort time: 0.000
+53 + 210 = 263 rows / 395 columns out of 495 (79.798%)
+Density: 15.314% / 26.657% (60.49/r), total: 15909 (0.1MB)
+Matrix construction time: 0.000
+Matrix size: 263 by 395
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.030 + 0.000 = 0.030 [22]
+    Echelonization time: 0.030
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 22 (41.5%), min deg: 4 [22], av deg: 4.0
+Degree counts: 4:22
+Queue insertion time: 0.000
+New max step: 3, time: 0.030
+Step 3 time: 0.030, [0.032], mat/total: 0.030/0.030, mem: 32.1MB (=max)
+
+*******
+STEP 4
+Basis length: 49, queue length: 141, step degree: 5, num pairs: 125
+Basis total mons: 5344, average length: 109.061
+Number of S-polynomials: 125, different lcms: 87
+Number of pair polynomials: 125, at 766 column(s), 0.000
+Average length for reductees: 163.44 [125], reductors: 64.82 [636]
+Symbolic reduction time: 0.000, column sort time: 0.000
+125 + 636 = 761 rows / 883 columns out of 1287 (68.609%)
+Density: 9.1758% / 17.785% (81.022/r), total: 61658 (0.2MB)
+Matrix construction time: 0.000
+Matrix size: 761 by 883
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.183[r] + 0.000 = 0.185[r] [28]
+    Echelonization time: 0.185[r]
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 28 (22.4%), min deg: 5 [28], av deg: 5.0
+Degree counts: 5:28
+Queue insertion time: 0.000
+New max step: 4, time: 0.187[r]
+Step 4 time: 0.187[r], [0.187], mat/total: 0.220/0.220, mem: 32.1MB (=max)
+
+*******
+STEP 5
+Basis length: 77, queue length: 250, step degree: 6, num pairs: 196
+Basis total mons: 11504, average length: 149.403
+14 pairs eliminated
+Number of S-polynomials: 182, different lcms: 107
+Number of pair polynomials: 182, at 953 column(s), 0.000
+Average length for reductees: 220.00 [182], reductors: 91.16 [688]
+Symbolic reduction time: 0.000, column sort time: 0.000
+182 + 688 = 870 rows / 963 columns out of 3003 (32.068%)
+Density: 12.265% / 21.093% (118.11/r), total: 102759 (0.4MB)
+Matrix construction time: 0.000
+Matrix size: 870 by 963
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.459 + 0.000 = 0.459 [28]
+    Echelonization time: 0.459
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 28 (15.4%), min deg: 6 [28], av deg: 6.0
+Degree counts: 6:28
+Queue insertion time: 0.000
+New max step: 5, time: 0.460
+Step 5 time: 0.459, [0.467], mat/total: 0.680/0.680, mem: 32.1MB (=max)
+
+*******
+STEP 6
+Basis length: 105, queue length: 250, step degree: 7, num pairs: 238
+Basis total mons: 18448, average length: 175.695
+42 pairs eliminated
+Number of S-polynomials: 196, different lcms: 101
+Number of pair polynomials: 196, at 1039 column(s), 0.000[r]
+Average length for reductees: 248.00 [196], reductors: 94.62 [775]
+Symbolic reduction time: 0.000, column sort time: 0.000
+196 + 775 = 971 rows / 1050 columns out of 6435 (16.317%)
+Density: 11.96% / 20.69% (125.58/r), total: 121941 (0.5MB)
+Matrix construction time: 0.000
+Matrix size: 971 by 1050
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.530 + 0.000 = 0.530 [20]
+    Echelonization time: 0.530
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 20 (10.2%), min deg: 7 [20], av deg: 7.0
+Degree counts: 7:20
+Queue insertion time: 0.000
+New max step: 6, time: 0.537[r]
+Step 6 time: 0.536[r], [0.537], mat/total: 1.210/1.220, mem: 32.1MB (=max)
+
+*******
+STEP 7
+Basis length: 125, queue length: 152, step degree: 8, num pairs: 152
+Basis total mons: 23568, average length: 188.544
+12 pairs eliminated
+Number of S-polynomials: 140, different lcms: 71
+Number of pair polynomials: 140, at 1042 column(s), 0.000
+Average length for reductees: 256.00 [140], reductors: 104.46 [790]
+Symbolic reduction time: 0.000, column sort time: 0.000
+140 + 790 = 930 rows / 1053 columns out of 12870 (8.182%)
+Density: 12.087% / 21.206% (127.28/r), total: 118367 (0.5MB)
+Matrix construction time: 0.000
+Matrix size: 930 by 1053
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.414[r] + 0.000 = 0.414[r] [7]
+    Echelonization time: 0.414[r]
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 7 (5.0%), min deg: 8 [7], av deg: 8.0
+Degree counts: 8:7
+Queue insertion time: 0.000
+Step 7 time: 0.417[r], [0.417], mat/total: 1.630/1.640, mem: 32.1MB (=max)
+
+*******
+STEP 8
+Basis length: 132, queue length: 49, step degree: 9, num pairs: 49
+Basis total mons: 25367, average length: 192.174
+Number of S-polynomials: 49, different lcms: 28
+Number of pair polynomials: 49, at 1007 column(s), 0.000
+Average length for reductees: 257.00 [49], reductors: 108.17 [761]
+Symbolic reduction time: 0.000, column sort time: 0.000
+49 + 761 = 810 rows / 1018 columns out of 24310 (4.188%)
+Density: 11.51% / 21.53% (117.17/r), total: 94910 (0.4MB)
+Matrix construction time: 0.000
+Matrix size: 810 by 1018
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.139 + 0.000 = 0.139 [1]
+    Echelonization time: 0.139
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+Num new polynomials: 1 (2.0%), min deg: 9 [1], av deg: 9.0
+Degree counts: 9:1
+Queue insertion time: 0.000
+Step 8 time: 0.139, [0.145], mat/total: 1.770/1.780, mem: 32.1MB (=max)
+
+*******
+STEP 9
+Basis length: 133, queue length: 7, step degree: 10, num pairs: 7
+Basis total mons: 25624, average length: 192.662
+Number of S-polynomials: 7, different lcms: 7
+Number of pair polynomials: 7, at 987 column(s), 0.000
+Average length for reductees: 257.00 [7], reductors: 106.75 [742]
+Symbolic reduction time: 0.000[r], column sort time: 0.000
+7 + 742 = 749 rows / 998 columns out of 43758 (2.281%)
+Density: 10.837% / 21.438% (108.15/r), total: 81004 (0.3MB)
+Matrix construction time: 0.000
+Matrix size: 749 by 998
+Current max memory usage: 32.1MB (=max)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+    0.019[r] + 0.000 = 0.019[r] [0]
+    Echelonization time: 0.019[r]
+After ech memory: 32.1MB (=max)
+New rules time: 0.000
+No new polynomials
+Queue insertion time: 0.000
+Step 9 time: 0.021[r], [0.021], mat/total: 1.790/1.809[r], mem: 32.1MB (=max)
+
+Reduce 133 final polynomial(s) by 133
+0 redundant polynomial(s) removed; time: 0.000
+Interreduce 126 (out of range [0 .. 132] = 133) polynomial(s)
+Symbolic reduction time: 0.000
+Column sort time: 0.000
+126 + 0 = 126 rows / 382 columns
+Density: 52.582% / 78.767% (200.87/r), total: 25309 (0.1MB)
+Row sort time: 0.000
+    0.000 + 0.000 = 0.000 [126]
+    Echelonization time: 0.000
+Total reduction time: 0.000
+Reduction time: 0.000
+Final number of polynomials: 133
+
+Final basis length: 126
+Number of pairs: 771
+Max step: 6, time: 0.537
+Max num entries matrix: 971 by 1050
+Max num rows matrix: 971 by 1050
+Approx mat cost: 1.06115e+08, sym red cost: 624917
+Total pair setup time: 0.010
+Total symbolic reduction time: 0.010
+Total column sort time: 0.000
+Total row sort time: 0.000
+Total matrix time: 1.790
+Total new polys time: 0.000
+Total queue update time: 0.000
+Total Faugere F4 time: 1.810, real time: 1.813
+Time: 1.810
+[ 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+126
+[ 9, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 
+7, 7, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3,
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2 ]
+---------------
+FGLM computation
+---------------
+*****************
+FGLM ORDER CHANGE
+*****************
+
+Coefficient ring: GF(2147483647)
+Rank: 8
+Initial order: Graded Reverse Lexicographical
+Final order: Lexicographical
+Basis length: 126
+Quotient dimension: 256
+
+Step 1, 0 columns
+Monomial 0: 1
+Row 0: pivot 0
+
+Step 2, 1 columns
+Monomial 1: x23
+Best monomial: 1
+Row 1: pivot 1
+
+Step 3, 2 columns
+Monomial 2: x23^2
+Best monomial: x23
+Row 2: pivot 2
+
+Step 4, 3 columns
+Monomial 3: x23^3
+Best monomial: x23^2
+Row 3: pivot 3
+
+Step 5, 4 columns
+Monomial 4: x23^4
+Best monomial: x23^3
+Row 4: pivot 4
+
+Step 6, 5 columns
+Monomial 5: x23^5
+Best monomial: x23^4
+Row 5: pivot 5
+
+Step 7, 6 columns
+Monomial 6: x23^6
+Best monomial: x23^5
+Row 6: pivot 6
+
+Step 8, 7 columns
+Monomial 7: x23^7
+Best monomial: x23^6
+Row 7: pivot 7
+
+Step 9, 8 columns
+Monomial 8: x23^8
+Best monomial: x23^7
+Row 8: pivot 8
+
+Step 10, 9 columns
+Monomial 9: x23^9
+Best monomial: x23^8
+Row 9: pivot 9
+
+Step 11, 256 columns
+Monomial 10: x23^10
+Best monomial: x23^9
+Row 10: pivot 10
+
+Step 12, 256 columns
+Monomial 11: x23^11
+Best monomial: x23^10
+Row 11: pivot 11
+
+Step 13, 256 columns
+Monomial 12: x23^12
+Best monomial: x23^11
+Row 12: pivot 12
+
+Step 14, 256 columns
+Monomial 13: x23^13
+Best monomial: x23^12
+Row 13: pivot 13
+
+Step 15, 256 columns
+Monomial 14: x23^14
+Best monomial: x23^13
+Row 14: pivot 14
+
+Step 16, 256 columns
+Monomial 15: x23^15
+Best monomial: x23^14
+Row 15: pivot 15
+
+Step 17, 256 columns
+Monomial 16: x23^16
+Best monomial: x23^15
+Row 16: pivot 16
+
+Step 18, 256 columns
+Monomial 17: x23^17
+Best monomial: x23^16
+Row 17: pivot 17
+
+Step 19, 256 columns
+Monomial 18: x23^18
+Best monomial: x23^17
+Row 18: pivot 18
+
+Step 20, 256 columns
+Monomial 19: x23^19
+Best monomial: x23^18
+Row 19: pivot 19
+
+Step 21, 256 columns
+Monomial 20: x23^20
+Best monomial: x23^19
+Row 20: pivot 20
+
+Step 22, 256 columns
+Monomial 21: x23^21
+Best monomial: x23^20
+Row 21: pivot 21
+
+Step 23, 256 columns
+Monomial 22: x23^22
+Best monomial: x23^21
+Row 22: pivot 22
+
+Step 24, 256 columns
+Monomial 23: x23^23
+Best monomial: x23^22
+Row 23: pivot 23
+
+Step 25, 256 columns
+Monomial 24: x23^24
+Best monomial: x23^23
+Row 24: pivot 24
+
+Step 26, 256 columns
+Monomial 25: x23^25
+Best monomial: x23^24
+Row 25: pivot 25
+
+Step 27, 256 columns
+Monomial 26: x23^26
+Best monomial: x23^25
+Row 26: pivot 26
+
+Step 28, 256 columns
+Monomial 27: x23^27
+Best monomial: x23^26
+Row 27: pivot 27
+
+Step 29, 256 columns
+Monomial 28: x23^28
+Best monomial: x23^27
+Row 28: pivot 28
+
+Step 30, 256 columns
+Monomial 29: x23^29
+Best monomial: x23^28
+Row 29: pivot 29
+
+Step 31, 256 columns
+Monomial 30: x23^30
+Best monomial: x23^29
+Row 30: pivot 30
+
+Step 32, 256 columns
+Monomial 31: x23^31
+Best monomial: x23^30
+Row 31: pivot 31
+
+Step 33, 256 columns
+Monomial 32: x23^32
+Best monomial: x23^31
+Row 32: pivot 32
+
+Step 34, 256 columns
+Monomial 33: x23^33
+Best monomial: x23^32
+Row 33: pivot 33
+
+Step 35, 256 columns
+Monomial 34: x23^34
+Best monomial: x23^33
+Row 34: pivot 34
+
+Step 36, 256 columns
+Monomial 35: x23^35
+Best monomial: x23^34
+Row 35: pivot 35
+
+Step 37, 256 columns
+Monomial 36: x23^36
+Best monomial: x23^35
+Row 36: pivot 36
+
+Step 38, 256 columns
+Monomial 37: x23^37
+Best monomial: x23^36
+Row 37: pivot 37
+
+Step 39, 256 columns
+Monomial 38: x23^38
+Best monomial: x23^37
+Row 38: pivot 38
+
+Step 40, 256 columns
+Monomial 39: x23^39
+Best monomial: x23^38
+Row 39: pivot 39
+
+Step 41, 256 columns
+Monomial 40: x23^40
+Best monomial: x23^39
+Row 40: pivot 40
+
+Step 42, 256 columns
+Monomial 41: x23^41
+Best monomial: x23^40
+Row 41: pivot 41
+
+Step 43, 256 columns
+Monomial 42: x23^42
+Best monomial: x23^41
+Row 42: pivot 42
+
+Step 44, 256 columns
+Monomial 43: x23^43
+Best monomial: x23^42
+Row 43: pivot 43
+
+Step 45, 256 columns
+Monomial 44: x23^44
+Best monomial: x23^43
+Row 44: pivot 44
+
+Step 46, 256 columns
+Monomial 45: x23^45
+Best monomial: x23^44
+Row 45: pivot 45
+
+Step 47, 256 columns
+Monomial 46: x23^46
+Best monomial: x23^45
+Row 46: pivot 46
+
+Step 48, 256 columns
+Monomial 47: x23^47
+Best monomial: x23^46
+Row 47: pivot 47
+
+Step 49, 256 columns
+Monomial 48: x23^48
+Best monomial: x23^47
+Row 48: pivot 48
+
+Step 50, 256 columns
+Monomial 49: x23^49
+Best monomial: x23^48
+Row 49: pivot 49
+
+Step 51, 256 columns
+Monomial 50: x23^50
+Best monomial: x23^49
+Row 50: pivot 50
+
+Step 52, 256 columns
+Monomial 51: x23^51
+Best monomial: x23^50
+Row 51: pivot 51
+
+Step 53, 256 columns
+Monomial 52: x23^52
+Best monomial: x23^51
+Row 52: pivot 52
+
+Step 54, 256 columns
+Monomial 53: x23^53
+Best monomial: x23^52
+Row 53: pivot 53
+
+Step 55, 256 columns
+Monomial 54: x23^54
+Best monomial: x23^53
+Row 54: pivot 54
+
+Step 56, 256 columns
+Monomial 55: x23^55
+Best monomial: x23^54
+Row 55: pivot 55
+
+Step 57, 256 columns
+Monomial 56: x23^56
+Best monomial: x23^55
+Row 56: pivot 56
+
+Step 58, 256 columns
+Monomial 57: x23^57
+Best monomial: x23^56
+Row 57: pivot 57
+
+Step 59, 256 columns
+Monomial 58: x23^58
+Best monomial: x23^57
+Row 58: pivot 58
+
+Step 60, 256 columns
+Monomial 59: x23^59
+Best monomial: x23^58
+Row 59: pivot 59
+
+Step 61, 256 columns
+Monomial 60: x23^60
+Best monomial: x23^59
+Row 60: pivot 60
+
+Step 62, 256 columns
+Monomial 61: x23^61
+Best monomial: x23^60
+Row 61: pivot 61
+
+Step 63, 256 columns
+Monomial 62: x23^62
+Best monomial: x23^61
+Row 62: pivot 62
+
+Step 64, 256 columns
+Monomial 63: x23^63
+Best monomial: x23^62
+Row 63: pivot 63
+
+Step 65, 256 columns
+Monomial 64: x23^64
+Best monomial: x23^63
+Row 64: pivot 64
+
+Step 66, 256 columns
+Monomial 65: x23^65
+Best monomial: x23^64
+Row 65: pivot 65
+
+Step 67, 256 columns
+Monomial 66: x23^66
+Best monomial: x23^65
+Row 66: pivot 66
+
+Step 68, 256 columns
+Monomial 67: x23^67
+Best monomial: x23^66
+Row 67: pivot 67
+
+Step 69, 256 columns
+Monomial 68: x23^68
+Best monomial: x23^67
+Row 68: pivot 68
+
+Step 70, 256 columns
+Monomial 69: x23^69
+Best monomial: x23^68
+Row 69: pivot 69
+
+Step 71, 256 columns
+Monomial 70: x23^70
+Best monomial: x23^69
+Row 70: pivot 70
+
+Step 72, 256 columns
+Monomial 71: x23^71
+Best monomial: x23^70
+Row 71: pivot 71
+
+Step 73, 256 columns
+Monomial 72: x23^72
+Best monomial: x23^71
+Row 72: pivot 72
+
+Step 74, 256 columns
+Monomial 73: x23^73
+Best monomial: x23^72
+Row 73: pivot 73
+
+Step 75, 256 columns
+Monomial 74: x23^74
+Best monomial: x23^73
+Row 74: pivot 74
+
+Step 76, 256 columns
+Monomial 75: x23^75
+Best monomial: x23^74
+Row 75: pivot 75
+
+Step 77, 256 columns
+Monomial 76: x23^76
+Best monomial: x23^75
+Row 76: pivot 76
+
+Step 78, 256 columns
+Monomial 77: x23^77
+Best monomial: x23^76
+Row 77: pivot 77
+
+Step 79, 256 columns
+Monomial 78: x23^78
+Best monomial: x23^77
+Row 78: pivot 78
+
+Step 80, 256 columns
+Monomial 79: x23^79
+Best monomial: x23^78
+Row 79: pivot 79
+
+Step 81, 256 columns
+Monomial 80: x23^80
+Best monomial: x23^79
+Row 80: pivot 80
+
+Step 82, 256 columns
+Monomial 81: x23^81
+Best monomial: x23^80
+Row 81: pivot 81
+
+Step 83, 256 columns
+Monomial 82: x23^82
+Best monomial: x23^81
+Row 82: pivot 82
+
+Step 84, 256 columns
+Monomial 83: x23^83
+Best monomial: x23^82
+Row 83: pivot 83
+
+Step 85, 256 columns
+Monomial 84: x23^84
+Best monomial: x23^83
+Row 84: pivot 84
+
+Step 86, 256 columns
+Monomial 85: x23^85
+Best monomial: x23^84
+Row 85: pivot 85
+
+Step 87, 256 columns
+Monomial 86: x23^86
+Best monomial: x23^85
+Row 86: pivot 86
+
+Step 88, 256 columns
+Monomial 87: x23^87
+Best monomial: x23^86
+Row 87: pivot 87
+
+Step 89, 256 columns
+Monomial 88: x23^88
+Best monomial: x23^87
+Row 88: pivot 88
+
+Step 90, 256 columns
+Monomial 89: x23^89
+Best monomial: x23^88
+Row 89: pivot 89
+
+Step 91, 256 columns
+Monomial 90: x23^90
+Best monomial: x23^89
+Row 90: pivot 90
+
+Step 92, 256 columns
+Monomial 91: x23^91
+Best monomial: x23^90
+Row 91: pivot 91
+
+Step 93, 256 columns
+Monomial 92: x23^92
+Best monomial: x23^91
+Row 92: pivot 92
+
+Step 94, 256 columns
+Monomial 93: x23^93
+Best monomial: x23^92
+Row 93: pivot 93
+
+Step 95, 256 columns
+Monomial 94: x23^94
+Best monomial: x23^93
+Row 94: pivot 94
+
+Step 96, 256 columns
+Monomial 95: x23^95
+Best monomial: x23^94
+Row 95: pivot 95
+
+Step 97, 256 columns
+Monomial 96: x23^96
+Best monomial: x23^95
+Row 96: pivot 96
+
+Step 98, 256 columns
+Monomial 97: x23^97
+Best monomial: x23^96
+Row 97: pivot 97
+
+Step 99, 256 columns
+Monomial 98: x23^98
+Best monomial: x23^97
+Row 98: pivot 98
+
+Step 100, 256 columns
+Monomial 99: x23^99
+Best monomial: x23^98
+Row 99: pivot 99
+
+Step 101, 256 columns
+Monomial 100: x23^100
+Best monomial: x23^99
+Row 100: pivot 100
+
+Step 102, 256 columns
+Monomial 101: x23^101
+Best monomial: x23^100
+Row 101: pivot 101
+
+Step 103, 256 columns
+Monomial 102: x23^102
+Best monomial: x23^101
+Row 102: pivot 102
+
+Step 104, 256 columns
+Monomial 103: x23^103
+Best monomial: x23^102
+Row 103: pivot 103
+
+Step 105, 256 columns
+Monomial 104: x23^104
+Best monomial: x23^103
+Row 104: pivot 104
+
+Step 106, 256 columns
+Monomial 105: x23^105
+Best monomial: x23^104
+Row 105: pivot 105
+
+Step 107, 256 columns
+Monomial 106: x23^106
+Best monomial: x23^105
+Row 106: pivot 106
+
+Step 108, 256 columns
+Monomial 107: x23^107
+Best monomial: x23^106
+Row 107: pivot 107
+
+Step 109, 256 columns
+Monomial 108: x23^108
+Best monomial: x23^107
+Row 108: pivot 108
+
+Step 110, 256 columns
+Monomial 109: x23^109
+Best monomial: x23^108
+Row 109: pivot 109
+
+Step 111, 256 columns
+Monomial 110: x23^110
+Best monomial: x23^109
+Row 110: pivot 110
+
+Step 112, 256 columns
+Monomial 111: x23^111
+Best monomial: x23^110
+Row 111: pivot 111
+
+Step 113, 256 columns
+Monomial 112: x23^112
+Best monomial: x23^111
+Row 112: pivot 112
+
+Step 114, 256 columns
+Monomial 113: x23^113
+Best monomial: x23^112
+Row 113: pivot 113
+
+Step 115, 256 columns
+Monomial 114: x23^114
+Best monomial: x23^113
+Row 114: pivot 114
+
+Step 116, 256 columns
+Monomial 115: x23^115
+Best monomial: x23^114
+Row 115: pivot 115
+
+Step 117, 256 columns
+Monomial 116: x23^116
+Best monomial: x23^115
+Row 116: pivot 116
+
+Step 118, 256 columns
+Monomial 117: x23^117
+Best monomial: x23^116
+Row 117: pivot 117
+
+Step 119, 256 columns
+Monomial 118: x23^118
+Best monomial: x23^117
+Row 118: pivot 118
+
+Step 120, 256 columns
+Monomial 119: x23^119
+Best monomial: x23^118
+Row 119: pivot 119
+
+Step 121, 256 columns
+Monomial 120: x23^120
+Best monomial: x23^119
+Row 120: pivot 120
+
+Step 122, 256 columns
+Monomial 121: x23^121
+Best monomial: x23^120
+Row 121: pivot 121
+
+Step 123, 256 columns
+Monomial 122: x23^122
+Best monomial: x23^121
+Row 122: pivot 122
+
+Step 124, 256 columns
+Monomial 123: x23^123
+Best monomial: x23^122
+Row 123: pivot 123
+
+Step 125, 256 columns
+Monomial 124: x23^124
+Best monomial: x23^123
+Row 124: pivot 124
+
+Step 126, 256 columns
+Monomial 125: x23^125
+Best monomial: x23^124
+Row 125: pivot 125
+
+Step 127, 256 columns
+Monomial 126: x23^126
+Best monomial: x23^125
+Row 126: pivot 126
+
+Step 128, 256 columns
+Monomial 127: x23^127
+Best monomial: x23^126
+Row 127: pivot 127
+
+Step 129, 256 columns
+Monomial 128: x23^128
+Best monomial: x23^127
+Row 128: pivot 128
+
+Step 130, 256 columns
+Monomial 129: x23^129
+Best monomial: x23^128
+Row 129: pivot 129
+
+Step 131, 256 columns
+Monomial 130: x23^130
+Best monomial: x23^129
+Row 130: pivot 130
+
+Step 132, 256 columns
+Monomial 131: x23^131
+Best monomial: x23^130
+Row 131: pivot 131
+
+Step 133, 256 columns
+Monomial 132: x23^132
+Best monomial: x23^131
+Row 132: pivot 132
+
+Step 134, 256 columns
+Monomial 133: x23^133
+Best monomial: x23^132
+Row 133: pivot 133
+
+Step 135, 256 columns
+Monomial 134: x23^134
+Best monomial: x23^133
+Row 134: pivot 134
+
+Step 136, 256 columns
+Monomial 135: x23^135
+Best monomial: x23^134
+Row 135: pivot 135
+
+Step 137, 256 columns
+Monomial 136: x23^136
+Best monomial: x23^135
+Row 136: pivot 136
+
+Step 138, 256 columns
+Monomial 137: x23^137
+Best monomial: x23^136
+Row 137: pivot 137
+
+Step 139, 256 columns
+Monomial 138: x23^138
+Best monomial: x23^137
+Row 138: pivot 138
+
+Step 140, 256 columns
+Monomial 139: x23^139
+Best monomial: x23^138
+Row 139: pivot 139
+
+Step 141, 256 columns
+Monomial 140: x23^140
+Best monomial: x23^139
+Row 140: pivot 140
+
+Step 142, 256 columns
+Monomial 141: x23^141
+Best monomial: x23^140
+Row 141: pivot 141
+
+Step 143, 256 columns
+Monomial 142: x23^142
+Best monomial: x23^141
+Row 142: pivot 142
+
+Step 144, 256 columns
+Monomial 143: x23^143
+Best monomial: x23^142
+Row 143: pivot 143
+
+Step 145, 256 columns
+Monomial 144: x23^144
+Best monomial: x23^143
+Row 144: pivot 144
+
+Step 146, 256 columns
+Monomial 145: x23^145
+Best monomial: x23^144
+Row 145: pivot 145
+
+Step 147, 256 columns
+Monomial 146: x23^146
+Best monomial: x23^145
+Row 146: pivot 146
+
+Step 148, 256 columns
+Monomial 147: x23^147
+Best monomial: x23^146
+Row 147: pivot 147
+
+Step 149, 256 columns
+Monomial 148: x23^148
+Best monomial: x23^147
+Row 148: pivot 148
+
+Step 150, 256 columns
+Monomial 149: x23^149
+Best monomial: x23^148
+Row 149: pivot 149
+
+Step 151, 256 columns
+Monomial 150: x23^150
+Best monomial: x23^149
+Row 150: pivot 150
+
+Step 152, 256 columns
+Monomial 151: x23^151
+Best monomial: x23^150
+Row 151: pivot 151
+
+Step 153, 256 columns
+Monomial 152: x23^152
+Best monomial: x23^151
+Row 152: pivot 152
+
+Step 154, 256 columns
+Monomial 153: x23^153
+Best monomial: x23^152
+Row 153: pivot 153
+
+Step 155, 256 columns
+Monomial 154: x23^154
+Best monomial: x23^153
+Row 154: pivot 154
+
+Step 156, 256 columns
+Monomial 155: x23^155
+Best monomial: x23^154
+Row 155: pivot 155
+
+Step 157, 256 columns
+Monomial 156: x23^156
+Best monomial: x23^155
+Row 156: pivot 156
+
+Step 158, 256 columns
+Monomial 157: x23^157
+Best monomial: x23^156
+Row 157: pivot 157
+
+Step 159, 256 columns
+Monomial 158: x23^158
+Best monomial: x23^157
+Row 158: pivot 158
+
+Step 160, 256 columns
+Monomial 159: x23^159
+Best monomial: x23^158
+Row 159: pivot 159
+
+Step 161, 256 columns
+Monomial 160: x23^160
+Best monomial: x23^159
+Row 160: pivot 160
+
+Step 162, 256 columns
+Monomial 161: x23^161
+Best monomial: x23^160
+Row 161: pivot 161
+
+Step 163, 256 columns
+Monomial 162: x23^162
+Best monomial: x23^161
+Row 162: pivot 162
+
+Step 164, 256 columns
+Monomial 163: x23^163
+Best monomial: x23^162
+Row 163: pivot 163
+
+Step 165, 256 columns
+Monomial 164: x23^164
+Best monomial: x23^163
+Row 164: pivot 164
+
+Step 166, 256 columns
+Monomial 165: x23^165
+Best monomial: x23^164
+Row 165: pivot 165
+
+Step 167, 256 columns
+Monomial 166: x23^166
+Best monomial: x23^165
+Row 166: pivot 166
+
+Step 168, 256 columns
+Monomial 167: x23^167
+Best monomial: x23^166
+Row 167: pivot 167
+
+Step 169, 256 columns
+Monomial 168: x23^168
+Best monomial: x23^167
+Row 168: pivot 168
+
+Step 170, 256 columns
+Monomial 169: x23^169
+Best monomial: x23^168
+Row 169: pivot 169
+
+Step 171, 256 columns
+Monomial 170: x23^170
+Best monomial: x23^169
+Row 170: pivot 170
+
+Step 172, 256 columns
+Monomial 171: x23^171
+Best monomial: x23^170
+Row 171: pivot 171
+
+Step 173, 256 columns
+Monomial 172: x23^172
+Best monomial: x23^171
+Row 172: pivot 172
+
+Step 174, 256 columns
+Monomial 173: x23^173
+Best monomial: x23^172
+Row 173: pivot 173
+
+Step 175, 256 columns
+Monomial 174: x23^174
+Best monomial: x23^173
+Row 174: pivot 174
+
+Step 176, 256 columns
+Monomial 175: x23^175
+Best monomial: x23^174
+Row 175: pivot 175
+
+Step 177, 256 columns
+Monomial 176: x23^176
+Best monomial: x23^175
+Row 176: pivot 176
+
+Step 178, 256 columns
+Monomial 177: x23^177
+Best monomial: x23^176
+Row 177: pivot 177
+
+Step 179, 256 columns
+Monomial 178: x23^178
+Best monomial: x23^177
+Row 178: pivot 178
+
+Step 180, 256 columns
+Monomial 179: x23^179
+Best monomial: x23^178
+Row 179: pivot 179
+
+Step 181, 256 columns
+Monomial 180: x23^180
+Best monomial: x23^179
+Row 180: pivot 180
+
+Step 182, 256 columns
+Monomial 181: x23^181
+Best monomial: x23^180
+Row 181: pivot 181
+
+Step 183, 256 columns
+Monomial 182: x23^182
+Best monomial: x23^181
+Row 182: pivot 182
+
+Step 184, 256 columns
+Monomial 183: x23^183
+Best monomial: x23^182
+Row 183: pivot 183
+
+Step 185, 256 columns
+Monomial 184: x23^184
+Best monomial: x23^183
+Row 184: pivot 184
+
+Step 186, 256 columns
+Monomial 185: x23^185
+Best monomial: x23^184
+Row 185: pivot 185
+
+Step 187, 256 columns
+Monomial 186: x23^186
+Best monomial: x23^185
+Row 186: pivot 186
+
+Step 188, 256 columns
+Monomial 187: x23^187
+Best monomial: x23^186
+Row 187: pivot 187
+
+Step 189, 256 columns
+Monomial 188: x23^188
+Best monomial: x23^187
+Row 188: pivot 188
+
+Step 190, 256 columns
+Monomial 189: x23^189
+Best monomial: x23^188
+Row 189: pivot 189
+
+Step 191, 256 columns
+Monomial 190: x23^190
+Best monomial: x23^189
+Row 190: pivot 190
+
+Step 192, 256 columns
+Monomial 191: x23^191
+Best monomial: x23^190
+Row 191: pivot 191
+
+Step 193, 256 columns
+Monomial 192: x23^192
+Best monomial: x23^191
+Row 192: pivot 192
+
+Step 194, 256 columns
+Monomial 193: x23^193
+Best monomial: x23^192
+Row 193: pivot 193
+
+Step 195, 256 columns
+Monomial 194: x23^194
+Best monomial: x23^193
+Row 194: pivot 194
+
+Step 196, 256 columns
+Monomial 195: x23^195
+Best monomial: x23^194
+Row 195: pivot 195
+
+Step 197, 256 columns
+Monomial 196: x23^196
+Best monomial: x23^195
+Row 196: pivot 196
+
+Step 198, 256 columns
+Monomial 197: x23^197
+Best monomial: x23^196
+Row 197: pivot 197
+
+Step 199, 256 columns
+Monomial 198: x23^198
+Best monomial: x23^197
+Row 198: pivot 198
+
+Step 200, 256 columns
+Monomial 199: x23^199
+Best monomial: x23^198
+Row 199: pivot 199
+
+Step 201, 256 columns
+Monomial 200: x23^200
+Best monomial: x23^199
+Row 200: pivot 200
+
+Step 202, 256 columns
+Monomial 201: x23^201
+Best monomial: x23^200
+Row 201: pivot 201
+
+Step 203, 256 columns
+Monomial 202: x23^202
+Best monomial: x23^201
+Row 202: pivot 202
+
+Step 204, 256 columns
+Monomial 203: x23^203
+Best monomial: x23^202
+Row 203: pivot 203
+
+Step 205, 256 columns
+Monomial 204: x23^204
+Best monomial: x23^203
+Row 204: pivot 204
+
+Step 206, 256 columns
+Monomial 205: x23^205
+Best monomial: x23^204
+Row 205: pivot 205
+
+Step 207, 256 columns
+Monomial 206: x23^206
+Best monomial: x23^205
+Row 206: pivot 206
+
+Step 208, 256 columns
+Monomial 207: x23^207
+Best monomial: x23^206
+Row 207: pivot 207
+
+Step 209, 256 columns
+Monomial 208: x23^208
+Best monomial: x23^207
+Row 208: pivot 208
+
+Step 210, 256 columns
+Monomial 209: x23^209
+Best monomial: x23^208
+Row 209: pivot 209
+
+Step 211, 256 columns
+Monomial 210: x23^210
+Best monomial: x23^209
+Row 210: pivot 210
+
+Step 212, 256 columns
+Monomial 211: x23^211
+Best monomial: x23^210
+Row 211: pivot 211
+
+Step 213, 256 columns
+Monomial 212: x23^212
+Best monomial: x23^211
+Row 212: pivot 212
+
+Step 214, 256 columns
+Monomial 213: x23^213
+Best monomial: x23^212
+Row 213: pivot 213
+
+Step 215, 256 columns
+Monomial 214: x23^214
+Best monomial: x23^213
+Row 214: pivot 214
+
+Step 216, 256 columns
+Monomial 215: x23^215
+Best monomial: x23^214
+Row 215: pivot 215
+
+Step 217, 256 columns
+Monomial 216: x23^216
+Best monomial: x23^215
+Row 216: pivot 216
+
+Step 218, 256 columns
+Monomial 217: x23^217
+Best monomial: x23^216
+Row 217: pivot 217
+
+Step 219, 256 columns
+Monomial 218: x23^218
+Best monomial: x23^217
+Row 218: pivot 218
+
+Step 220, 256 columns
+Monomial 219: x23^219
+Best monomial: x23^218
+Row 219: pivot 219
+
+Step 221, 256 columns
+Monomial 220: x23^220
+Best monomial: x23^219
+Row 220: pivot 220
+
+Step 222, 256 columns
+Monomial 221: x23^221
+Best monomial: x23^220
+Row 221: pivot 221
+
+Step 223, 256 columns
+Monomial 222: x23^222
+Best monomial: x23^221
+Row 222: pivot 222
+
+Step 224, 256 columns
+Monomial 223: x23^223
+Best monomial: x23^222
+Row 223: pivot 223
+
+Step 225, 256 columns
+Monomial 224: x23^224
+Best monomial: x23^223
+Row 224: pivot 224
+
+Step 226, 256 columns
+Monomial 225: x23^225
+Best monomial: x23^224
+Row 225: pivot 225
+
+Step 227, 256 columns
+Monomial 226: x23^226
+Best monomial: x23^225
+Row 226: pivot 226
+
+Step 228, 256 columns
+Monomial 227: x23^227
+Best monomial: x23^226
+Row 227: pivot 227
+
+Step 229, 256 columns
+Monomial 228: x23^228
+Best monomial: x23^227
+Row 228: pivot 228
+
+Step 230, 256 columns
+Monomial 229: x23^229
+Best monomial: x23^228
+Row 229: pivot 229
+
+Step 231, 256 columns
+Monomial 230: x23^230
+Best monomial: x23^229
+Row 230: pivot 230
+
+Step 232, 256 columns
+Monomial 231: x23^231
+Best monomial: x23^230
+Row 231: pivot 231
+
+Step 233, 256 columns
+Monomial 232: x23^232
+Best monomial: x23^231
+Row 232: pivot 232
+
+Step 234, 256 columns
+Monomial 233: x23^233
+Best monomial: x23^232
+Row 233: pivot 233
+
+Step 235, 256 columns
+Monomial 234: x23^234
+Best monomial: x23^233
+Row 234: pivot 234
+
+Step 236, 256 columns
+Monomial 235: x23^235
+Best monomial: x23^234
+Row 235: pivot 235
+
+Step 237, 256 columns
+Monomial 236: x23^236
+Best monomial: x23^235
+Row 236: pivot 236
+
+Step 238, 256 columns
+Monomial 237: x23^237
+Best monomial: x23^236
+Row 237: pivot 237
+
+Step 239, 256 columns
+Monomial 238: x23^238
+Best monomial: x23^237
+Row 238: pivot 238
+
+Step 240, 256 columns
+Monomial 239: x23^239
+Best monomial: x23^238
+Row 239: pivot 239
+
+Step 241, 256 columns
+Monomial 240: x23^240
+Best monomial: x23^239
+Row 240: pivot 240
+
+Step 242, 256 columns
+Monomial 241: x23^241
+Best monomial: x23^240
+Row 241: pivot 241
+
+Step 243, 256 columns
+Monomial 242: x23^242
+Best monomial: x23^241
+Row 242: pivot 242
+
+Step 244, 256 columns
+Monomial 243: x23^243
+Best monomial: x23^242
+Row 243: pivot 243
+
+Step 245, 256 columns
+Monomial 244: x23^244
+Best monomial: x23^243
+Row 244: pivot 244
+
+Step 246, 256 columns
+Monomial 245: x23^245
+Best monomial: x23^244
+Row 245: pivot 245
+
+Step 247, 256 columns
+Monomial 246: x23^246
+Best monomial: x23^245
+Row 246: pivot 246
+
+Step 248, 256 columns
+Monomial 247: x23^247
+Best monomial: x23^246
+Row 247: pivot 247
+
+Step 249, 256 columns
+Monomial 248: x23^248
+Best monomial: x23^247
+Row 248: pivot 248
+
+Step 250, 256 columns
+Monomial 249: x23^249
+Best monomial: x23^248
+Row 249: pivot 249
+
+Step 251, 256 columns
+Monomial 250: x23^250
+Best monomial: x23^249
+Row 250: pivot 250
+
+Step 252, 256 columns
+Monomial 251: x23^251
+Best monomial: x23^250
+Row 251: pivot 251
+
+Step 253, 256 columns
+Monomial 252: x23^252
+Best monomial: x23^251
+Row 252: pivot 252
+
+Step 254, 256 columns
+Monomial 253: x23^253
+Best monomial: x23^252
+Row 253: pivot 253
+
+Step 255, 256 columns
+Monomial 254: x23^254
+Best monomial: x23^253
+Row 254: pivot 254
+
+Step 256, 256 columns
+Monomial 255: x23^255
+Best monomial: x23^254
+Row 255: pivot 255
+
+Step 257, 256 columns
+Monomial 256: x23^256
+Best monomial: x23^255
+Row 256: pivot -1
+New polynomial 0, leading monomial: x23^256, 1.014[r]
+Polynomial: x23^256 + 241413318*x23^255 + 1296175747*x23^254 + 
+    1284771809*x23^253 + 877937382*x23^252 + 701789880*x23^251 + 
+    1501545310*x23^250 + 293389083*x23^249 + 698028486*x23^248 + 
+    842981163*x23^247 + 617037836*x23^246 + 1072567613*x23^245 + 
+    226838384*x23^244 + 1597815552*x23^243 + 373858116*x23^242 + 
+    959958287*x23^241 + 1023144689*x23^240 + 161018403*x23^239 + 
+    1743013286*x23^238 + 1906893997*x23^237 + 1384551260*x23^236 + 
+    1000559480*x23^235 + 951296777*x23^234 + 1136119405*x23^233 + 
+    47942403*x23^232 + 935785846*x23^231 + 1981126206*x23^230 + 
+    705059764*x23^229 + 431717942*x23^228 + 390049461*x23^227 + 
+    263542559*x23^226 + 1907573406*x23^225 + 810665440*x23^224 + 
+    177655633*x23^223 + 1469456837*x23^222 + 168022429*x23^221 + 
+    1810196004*x23^220 + 2059390127*x23^219 + 315312118*x23^218 + 
+    1668001796*x23^217 + 490033724*x23^216 + 1573230129*x23^215 + 
+    419534228*x23^214 + 594651836*x23^213 + 209415999*x23^212 + 
+    1303430777*x23^211 + 1449890933*x23^210 + 1716243940*x23^209 + 
+    1039486597*x23^208 + 1910980242*x23^207 + 985605479*x23^206 + 
+    1979994149*x23^205 + 2046298240*x23^204 + 1107872501*x23^203 + 
+    327829574*x23^202 + 652555152*x23^201 + 1037767496*x23^200 + 
+    1371854741*x23^199 + 306591426*x23^198 + 800532478*x23^197 + 
+    380160900*x23^196 + 449567663*x23^195 + 1565227944*x23^194 + 
+    175247340*x23^193 + 812806144*x23^192 + 206840538*x23^191 + 
+    958601779*x23^190 + 1558694561*x23^189 + 1110525316*x23^188 + 
+    1084534479*x23^187 + 403179758*x23^186 + 2072738385*x23^185 + 
+    1899103835*x23^184 + 1644572072*x23^183 + 1385277350*x23^182 + 
+    120515250*x23^181 + 1385573267*x23^180 + 361981654*x23^179 + 
+    1042760500*x23^178 + 1924563477*x23^177 + 261461428*x23^176 + 
+    495337191*x23^175 + 1208970905*x23^174 + 509106424*x23^173 + 
+    391871944*x23^172 + 2047386419*x23^171 + 436329586*x23^170 + 
+    22492502*x23^169 + 182650644*x23^168 + 1488112856*x23^167 + 
+    163564295*x23^166 + 1954285572*x23^165 + 1707327397*x23^164 + 
+    229738024*x23^163 + 1848756202*x23^162 + 1203012769*x23^161 + 
+    847733202*x23^160 + 266723632*x23^159 + 1937597778*x23^158 + 
+    1499573032*x23^157 + 920877699*x23^156 + 935545171*x23^155 + 
+    1966292778*x23^154 + 1278559135*x23^153 + 1783830558*x23^152 + 
+    638999349*x23^151 + 1270537398*x23^150 + 443849747*x23^149 + 
+    42088090*x23^148 + 1213624335*x23^147 + 1125372366*x23^146 + 
+    436359239*x23^145 + 1266774193*x23^144 + 1164302996*x23^143 + 
+    1122828314*x23^142 + 35274513*x23^141 + 1850007369*x23^140 + 
+    1895762417*x23^139 + 571073377*x23^138 + 523783089*x23^137 + 
+    1195455608*x23^136 + 630803911*x23^135 + 457103417*x23^134 + 
+    1265930642*x23^133 + 1939028*x23^132 + 1815895886*x23^131 + 
+    1417696117*x23^130 + 2116250261*x23^129 + 1674004338*x23^128 + 
+    1767163031*x23^127 + 18885750*x23^126 + 1981446175*x23^125 + 
+    37763854*x23^124 + 205695029*x23^123 + 1048756508*x23^122 + 
+    552520728*x23^121 + 1190113192*x23^120 + 801825607*x23^119 + 
+    2092800861*x23^118 + 107544970*x23^117 + 1737836410*x23^116 + 
+    864399306*x23^115 + 1980045154*x23^114 + 596268883*x23^113 + 
+    2115747672*x23^112 + 635242971*x23^111 + 959970369*x23^110 + 
+    1281622610*x23^109 + 36036413*x23^108 + 3875901*x23^107 + 1569702999*x23^106
+    + 1077235540*x23^105 + 1513903509*x23^104 + 1216103829*x23^103 + 
+    1921608879*x23^102 + 122411824*x23^101 + 705847565*x23^100 + 
+    490879672*x23^99 + 99617551*x23^98 + 1134002341*x23^97 + 1031047946*x23^96 +
+    1165832902*x23^95 + 370379051*x23^94 + 1179174684*x23^93 + 51465873*x23^92 +
+    606954901*x23^91 + 1719325367*x23^90 + 40201711*x23^89 + 1365051678*x23^88 +
+    522073481*x23^87 + 1594573234*x23^86 + 678402580*x23^85 + 1798427031*x23^84 
+    + 6137839*x23^83 + 740358543*x23^82 + 1070810726*x23^81 + 62295926*x23^80 + 
+    147762708*x23^79 + 39857893*x23^78 + 1992783549*x23^77 + 955636563*x23^76 + 
+    437230984*x23^75 + 1416258250*x23^74 + 4564274*x23^73 + 743405880*x23^72 + 
+    1113812577*x23^71 + 767250997*x23^70 + 472494172*x23^69 + 1001605203*x23^68 
+    + 1215613733*x23^67 + 232233792*x23^66 + 1556884092*x23^65 + 
+    1202138386*x23^64 + 725509714*x23^63 + 1014979790*x23^62 + 636112857*x23^61 
+    + 403448267*x23^60 + 1020387374*x23^59 + 504887146*x23^58 + 228695868*x23^57
+    + 159382124*x23^56 + 526384060*x23^55 + 853614496*x23^54 + 15233566*x23^53 +
+    1783497112*x23^52 + 1805632199*x23^51 + 983659160*x23^50 + 1289867330*x23^49
+    + 39104311*x23^48 + 1438255295*x23^47 + 499123940*x23^46 + 1375741197*x23^45
+    + 619921656*x23^44 + 1768893064*x23^43 + 1607695605*x23^42 + 
+    1176612926*x23^41 + 176560811*x23^40 + 745126548*x23^39 + 1489395125*x23^38 
+    + 576232272*x23^37 + 1930342759*x23^36 + 1638164542*x23^35 + 
+    1264639288*x23^34 + 197899357*x23^33 + 1220550157*x23^32 + 738660798*x23^31 
+    + 620009452*x23^30 + 887962858*x23^29 + 1302182133*x23^28 + 
+    1677763998*x23^27 + 1636007204*x23^26 + 1961358628*x23^25 + 667449927*x23^24
+    + 886203792*x23^23 + 406763151*x23^22 + 1095943182*x23^21 + 883166042*x23^20
+    + 1054879607*x23^19 + 1936040083*x23^18 + 90265606*x23^17 + 752781168*x23^16
+    + 414815272*x23^15 + 77347243*x23^14 + 1398137707*x23^13 + 81413960*x23^12 +
+    1549306108*x23^11 + 1017794609*x23^10 + 950569206*x23^9 + 897153448*x23^8 + 
+    961324539*x23^7 + 828761239*x23^6 + 1211755523*x23^5 + 1236022456*x23^4 + 
+    2003620480*x23^3 + 1743596341*x23^2 + 1136548979*x23 + 1232172301
+
+Step 258, 256 columns
+Monomial 256: x22
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 1, leading monomial: x22, 1.014[r]
+Polynomial: x22 + 624640596*x23^255 + 429933303*x23^254 + 1708522237*x23^253 + 
+    335278392*x23^252 + 1933512661*x23^251 + 2097822508*x23^250 + 
+    583167045*x23^249 + 55030517*x23^248 + 920701700*x23^247 + 
+    1970492363*x23^246 + 2101662947*x23^245 + 2133445399*x23^244 + 
+    1520365179*x23^243 + 1940798997*x23^242 + 715773704*x23^241 + 
+    871163530*x23^240 + 41851423*x23^239 + 77345970*x23^238 + 7736849*x23^237 + 
+    1315722739*x23^236 + 1721925930*x23^235 + 103363667*x23^234 + 
+    1102122474*x23^233 + 195608075*x23^232 + 1628058599*x23^231 + 
+    1435883399*x23^230 + 859352449*x23^229 + 1814477*x23^228 + 
+    1644917922*x23^227 + 148038027*x23^226 + 1457326630*x23^225 + 
+    1888742523*x23^224 + 760987005*x23^223 + 2137568464*x23^222 + 
+    1347613585*x23^221 + 240785079*x23^220 + 1880809554*x23^219 + 
+    1095266981*x23^218 + 1097557683*x23^217 + 929533902*x23^216 + 
+    1713827473*x23^215 + 1268176164*x23^214 + 405666272*x23^213 + 
+    517763372*x23^212 + 1477427572*x23^211 + 523171708*x23^210 + 
+    747951208*x23^209 + 571090141*x23^208 + 758194761*x23^207 + 
+    1593615846*x23^206 + 306015420*x23^205 + 2078270878*x23^204 + 
+    632053935*x23^203 + 1610413058*x23^202 + 407703919*x23^201 + 
+    1631754948*x23^200 + 380802671*x23^199 + 1641412678*x23^198 + 
+    653264010*x23^197 + 1049050066*x23^196 + 279272161*x23^195 + 
+    1262416915*x23^194 + 1875322650*x23^193 + 1065848919*x23^192 + 
+    1549733000*x23^191 + 1963381000*x23^190 + 1985806209*x23^189 + 
+    973710756*x23^188 + 1554369350*x23^187 + 1209695489*x23^186 + 
+    1267712115*x23^185 + 2025970753*x23^184 + 1344366082*x23^183 + 
+    1729930422*x23^182 + 835876337*x23^181 + 269526804*x23^180 + 
+    1605350437*x23^179 + 288399944*x23^178 + 664951962*x23^177 + 
+    928830456*x23^176 + 1485642711*x23^175 + 2061364944*x23^174 + 
+    1544801790*x23^173 + 464634363*x23^172 + 1615873861*x23^171 + 
+    845932908*x23^170 + 377209658*x23^169 + 1200505510*x23^168 + 
+    1688989633*x23^167 + 223230631*x23^166 + 88513056*x23^165 + 23688476*x23^164
+    + 1395524639*x23^163 + 1633835131*x23^162 + 188863372*x23^161 + 
+    2068296988*x23^160 + 634868129*x23^159 + 1362943470*x23^158 + 
+    2044440348*x23^157 + 408057148*x23^156 + 406476353*x23^155 + 
+    2111866757*x23^154 + 1784268346*x23^153 + 27999189*x23^152 + 
+    923222155*x23^151 + 1724692397*x23^150 + 175675724*x23^149 + 
+    405125610*x23^148 + 1862921868*x23^147 + 608636395*x23^146 + 
+    977439712*x23^145 + 535639215*x23^144 + 746152725*x23^143 + 
+    1880511055*x23^142 + 983506581*x23^141 + 142645086*x23^140 + 
+    1432995045*x23^139 + 134263770*x23^138 + 1402189336*x23^137 + 
+    1376366785*x23^136 + 1854549992*x23^135 + 419321702*x23^134 + 
+    437571389*x23^133 + 1288976219*x23^132 + 631466453*x23^131 + 
+    1553934999*x23^130 + 67987312*x23^129 + 562467645*x23^128 + 
+    1911410875*x23^127 + 530704257*x23^126 + 1777664946*x23^125 + 
+    1276920302*x23^124 + 1368070713*x23^123 + 800565452*x23^122 + 
+    320714301*x23^121 + 1388361874*x23^120 + 25454579*x23^119 + 
+    755401544*x23^118 + 1975209831*x23^117 + 557605689*x23^116 + 
+    1064945859*x23^115 + 1304620053*x23^114 + 1205621910*x23^113 + 
+    33824204*x23^112 + 1300605282*x23^111 + 219395327*x23^110 + 
+    1816354138*x23^109 + 854200882*x23^108 + 376856290*x23^107 + 
+    2040046383*x23^106 + 764848352*x23^105 + 383058972*x23^104 + 
+    127849506*x23^103 + 461804378*x23^102 + 2013294339*x23^101 + 
+    2099324951*x23^100 + 1274498503*x23^99 + 1108770758*x23^98 + 
+    1161890361*x23^97 + 725071372*x23^96 + 1264626371*x23^95 + 1284278968*x23^94
+    + 1772797295*x23^93 + 1190936899*x23^92 + 260722654*x23^91 + 
+    197068845*x23^90 + 679697180*x23^89 + 263185042*x23^88 + 1173380944*x23^87 +
+    226063594*x23^86 + 2009667428*x23^85 + 1571064041*x23^84 + 1715320294*x23^83
+    + 166484608*x23^82 + 1789288846*x23^81 + 312367603*x23^80 + 
+    1024229937*x23^79 + 1138740621*x23^78 + 171255890*x23^77 + 564228812*x23^76 
+    + 2080629129*x23^75 + 576754520*x23^74 + 1005760938*x23^73 + 
+    682682059*x23^72 + 941372594*x23^71 + 182299323*x23^70 + 1055561839*x23^69 +
+    316954818*x23^68 + 700192081*x23^67 + 275170064*x23^66 + 1411210342*x23^65 +
+    575319631*x23^64 + 796365297*x23^63 + 1938566484*x23^62 + 1825425478*x23^61 
+    + 1494970939*x23^60 + 208350104*x23^59 + 371724896*x23^58 + 
+    1187920796*x23^57 + 1287112324*x23^56 + 1224656422*x23^55 + 
+    1957474390*x23^54 + 1296915744*x23^53 + 334729258*x23^52 + 1119013235*x23^51
+    + 2112272972*x23^50 + 1614812547*x23^49 + 1732492539*x23^48 + 
+    806115930*x23^47 + 1053686400*x23^46 + 1429234512*x23^45 + 216732780*x23^44 
+    + 1872984119*x23^43 + 1966612170*x23^42 + 1335225927*x23^41 + 
+    687985590*x23^40 + 1250377378*x23^39 + 224831810*x23^38 + 469712496*x23^37 +
+    1310544313*x23^36 + 414827121*x23^35 + 1291935440*x23^34 + 1011942719*x23^33
+    + 1193382814*x23^32 + 154766139*x23^31 + 1020342038*x23^30 + 
+    1303461710*x23^29 + 99876751*x23^28 + 1609467928*x23^27 + 522829320*x23^26 +
+    42339982*x23^25 + 1299989667*x23^24 + 1372332357*x23^23 + 989240373*x23^22 +
+    2004996421*x23^21 + 1958273926*x23^20 + 1202701060*x23^19 + 710645736*x23^18
+    + 845266775*x23^17 + 1336645900*x23^16 + 557211669*x23^15 + 292826567*x23^14
+    + 830748901*x23^13 + 481311021*x23^12 + 67936971*x23^11 + 854122740*x23^10 +
+    2086922148*x23^9 + 237848146*x23^8 + 284317421*x23^7 + 1426040555*x23^6 + 
+    496962937*x23^5 + 1889635694*x23^4 + 2021425654*x23^3 + 1434158941*x23^2 + 
+    1016276089*x23 + 101969611
+
+Step 259, 256 columns
+Monomial 256: x21
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 2, leading monomial: x21, 1.016[r]
+Polynomial: x21 + 2109819095*x23^255 + 1022615785*x23^254 + 534677964*x23^253 + 
+    545430458*x23^252 + 168756258*x23^251 + 1756112994*x23^250 + 
+    503858080*x23^249 + 1568638072*x23^248 + 1679674601*x23^247 + 
+    566528034*x23^246 + 1176065450*x23^245 + 1149442650*x23^244 + 
+    744919774*x23^243 + 1246326053*x23^242 + 1445012796*x23^241 + 
+    2090447755*x23^240 + 674257043*x23^239 + 35209923*x23^238 + 64580454*x23^237
+    + 257101955*x23^236 + 1624818099*x23^235 + 1435620406*x23^234 + 
+    665226395*x23^233 + 1587296760*x23^232 + 1022545385*x23^231 + 
+    553703173*x23^230 + 1644501616*x23^229 + 683333692*x23^228 + 
+    241487493*x23^227 + 1326905161*x23^226 + 773641165*x23^225 + 
+    2037984581*x23^224 + 1554176931*x23^223 + 554282917*x23^222 + 
+    669248429*x23^221 + 553952706*x23^220 + 1989680272*x23^219 + 
+    968623330*x23^218 + 1541248005*x23^217 + 1110376107*x23^216 + 
+    1812431020*x23^215 + 1909001942*x23^214 + 2089405737*x23^213 + 
+    341557211*x23^212 + 377071539*x23^211 + 1602792616*x23^210 + 
+    742656026*x23^209 + 2041009353*x23^208 + 1952012224*x23^207 + 
+    917132895*x23^206 + 618693945*x23^205 + 21886428*x23^204 + 
+    1442857497*x23^203 + 369513244*x23^202 + 1960738889*x23^201 + 
+    445353137*x23^200 + 1731100690*x23^199 + 314891484*x23^198 + 
+    1521310121*x23^197 + 386624220*x23^196 + 1375794053*x23^195 + 
+    70762660*x23^194 + 1545284567*x23^193 + 1680909344*x23^192 + 
+    1209220398*x23^191 + 2053231517*x23^190 + 1087793570*x23^189 + 
+    1316307097*x23^188 + 1768343510*x23^187 + 2070763631*x23^186 + 
+    375840119*x23^185 + 15466082*x23^184 + 1714262314*x23^183 + 
+    1903452652*x23^182 + 956628961*x23^181 + 259139384*x23^180 + 
+    1360294673*x23^179 + 1215750934*x23^178 + 86576063*x23^177 + 
+    486849769*x23^176 + 1096056005*x23^175 + 214302416*x23^174 + 
+    787830767*x23^173 + 1383514404*x23^172 + 1562979152*x23^171 + 
+    1797374631*x23^170 + 2034245042*x23^169 + 2126224108*x23^168 + 
+    1120242015*x23^167 + 1332812501*x23^166 + 1900032584*x23^165 + 
+    1094630203*x23^164 + 26818517*x23^163 + 2107658673*x23^162 + 
+    363225083*x23^161 + 1765897509*x23^160 + 163054036*x23^159 + 
+    1066867214*x23^158 + 1917929010*x23^157 + 905862657*x23^156 + 
+    1729148564*x23^155 + 462010339*x23^154 + 47072476*x23^153 + 
+    450306431*x23^152 + 1733406978*x23^151 + 315849474*x23^150 + 
+    579125150*x23^149 + 1720081101*x23^148 + 632084376*x23^147 + 
+    1460001841*x23^146 + 1451620616*x23^145 + 617651099*x23^144 + 
+    1000170994*x23^143 + 971224139*x23^142 + 329813370*x23^141 + 
+    1818708869*x23^140 + 1934826645*x23^139 + 1937407565*x23^138 + 
+    425556005*x23^137 + 236569049*x23^136 + 60133480*x23^135 + 
+    1974189599*x23^134 + 120614959*x23^133 + 1490568830*x23^132 + 
+    926217741*x23^131 + 65087467*x23^130 + 479562774*x23^129 + 
+    1698979554*x23^128 + 1204589355*x23^127 + 859692663*x23^126 + 
+    156423717*x23^125 + 996342613*x23^124 + 200271987*x23^123 + 
+    727003504*x23^122 + 81635088*x23^121 + 1100333039*x23^120 + 
+    1775126310*x23^119 + 34117009*x23^118 + 1398338149*x23^117 + 
+    417880817*x23^116 + 305030631*x23^115 + 85831627*x23^114 + 295291496*x23^113
+    + 1313160243*x23^112 + 554906212*x23^111 + 146860917*x23^110 + 
+    428597414*x23^109 + 692209479*x23^108 + 2105471700*x23^107 + 
+    2092644041*x23^106 + 555869918*x23^105 + 1071534382*x23^104 + 
+    1208218160*x23^103 + 1208986142*x23^102 + 167428843*x23^101 + 
+    1237165460*x23^100 + 1580358115*x23^99 + 1312937896*x23^98 + 
+    2037598830*x23^97 + 1317716051*x23^96 + 243068953*x23^95 + 1457557080*x23^94
+    + 1182372047*x23^93 + 1741951574*x23^92 + 426462216*x23^91 + 
+    779072921*x23^90 + 826443388*x23^89 + 471025967*x23^88 + 1429020462*x23^87 +
+    664393712*x23^86 + 1792468578*x23^85 + 1126994740*x23^84 + 869456269*x23^83 
+    + 1054315741*x23^82 + 36071124*x23^81 + 463280766*x23^80 + 1865008526*x23^79
+    + 396472435*x23^78 + 195407779*x23^77 + 1638701467*x23^76 + 
+    1220103076*x23^75 + 912468261*x23^74 + 2010170983*x23^73 + 1787403674*x23^72
+    + 1838934122*x23^71 + 1888809805*x23^70 + 229319689*x23^69 + 
+    879516505*x23^68 + 235877182*x23^67 + 1735233643*x23^66 + 1179552675*x23^65 
+    + 2000085314*x23^64 + 450579006*x23^63 + 323619894*x23^62 + 
+    1407147546*x23^61 + 1390772690*x23^60 + 1915024262*x23^59 + 
+    1486513898*x23^58 + 1390796198*x23^57 + 109343278*x23^56 + 1909650542*x23^55
+    + 1819471157*x23^54 + 1098678308*x23^53 + 740474188*x23^52 + 
+    812011694*x23^51 + 824678225*x23^50 + 1325700202*x23^49 + 1514319089*x23^48 
+    + 1269956148*x23^47 + 1826989162*x23^46 + 826961790*x23^45 + 
+    223788513*x23^44 + 279659629*x23^43 + 1545613882*x23^42 + 1785059475*x23^41 
+    + 352089443*x23^40 + 1381368431*x23^39 + 355842294*x23^38 + 
+    1866198271*x23^37 + 1422250728*x23^36 + 430134534*x23^35 + 314210534*x23^34 
+    + 477363217*x23^33 + 802478424*x23^32 + 424595206*x23^31 + 646218963*x23^30 
+    + 753359509*x23^29 + 1673753564*x23^28 + 1610112790*x23^27 + 
+    1353516118*x23^26 + 1050246104*x23^25 + 1418783505*x23^24 + 364353443*x23^23
+    + 2093499789*x23^22 + 223659281*x23^21 + 1879311872*x23^20 + 
+    482804879*x23^19 + 370857610*x23^18 + 1028868733*x23^17 + 2052366082*x23^16 
+    + 157363854*x23^15 + 1205303272*x23^14 + 1141606050*x23^13 + 
+    1029425676*x23^12 + 473957757*x23^11 + 294368365*x23^10 + 928268397*x23^9 + 
+    608573567*x23^8 + 408788637*x23^7 + 421585881*x23^6 + 1712243063*x23^5 + 
+    1747780676*x23^4 + 577637799*x23^3 + 1354837668*x23^2 + 294952899*x23 + 
+    2042838068
+
+Step 260, 256 columns
+Monomial 256: x20
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 3, leading monomial: x20, 1.016[r]
+Polynomial: x20 + 2130350965*x23^255 + 729547580*x23^254 + 1423125806*x23^253 + 
+    1562019118*x23^252 + 570409144*x23^251 + 121821657*x23^250 + 
+    275802231*x23^249 + 815341172*x23^248 + 1687479790*x23^247 + 
+    1549339146*x23^246 + 176852768*x23^245 + 1830516080*x23^244 + 
+    1734017789*x23^243 + 785744927*x23^242 + 2112646284*x23^241 + 
+    1764668889*x23^240 + 1153698697*x23^239 + 872432863*x23^238 + 
+    857824199*x23^237 + 2031709964*x23^236 + 928401848*x23^235 + 
+    2076227801*x23^234 + 539265843*x23^233 + 313265423*x23^232 + 
+    1443408774*x23^231 + 1545325402*x23^230 + 693549210*x23^229 + 
+    45179162*x23^228 + 306534283*x23^227 + 1231326856*x23^226 + 
+    1328070906*x23^225 + 729573984*x23^224 + 1331882000*x23^223 + 
+    765492673*x23^222 + 43337115*x23^221 + 1675259822*x23^220 + 
+    1847501582*x23^219 + 893928382*x23^218 + 787142583*x23^217 + 
+    1155881116*x23^216 + 1153471669*x23^215 + 1492886789*x23^214 + 
+    308937607*x23^213 + 2106281627*x23^212 + 1301099966*x23^211 + 
+    474138251*x23^210 + 757173898*x23^209 + 2114662344*x23^208 + 
+    151150518*x23^207 + 98670687*x23^206 + 2027001395*x23^205 + 
+    304730270*x23^204 + 490573706*x23^203 + 1298368317*x23^202 + 
+    1400139147*x23^201 + 296446185*x23^200 + 1341593811*x23^199 + 
+    487556448*x23^198 + 77077949*x23^197 + 39496046*x23^196 + 1348593816*x23^195
+    + 1085645074*x23^194 + 911086144*x23^193 + 1756326355*x23^192 + 
+    504403184*x23^191 + 1048181839*x23^190 + 585048059*x23^189 + 
+    1441894890*x23^188 + 1276595077*x23^187 + 1265187484*x23^186 + 
+    782936095*x23^185 + 1323094042*x23^184 + 771875276*x23^183 + 
+    944501125*x23^182 + 2088431566*x23^181 + 1217067035*x23^180 + 
+    880089475*x23^179 + 1280166311*x23^178 + 945836434*x23^177 + 712296*x23^176 
+    + 2012697490*x23^175 + 764711083*x23^174 + 64532815*x23^173 + 
+    1439029949*x23^172 + 907069123*x23^171 + 1348711744*x23^170 + 
+    311387356*x23^169 + 1364235325*x23^168 + 170930567*x23^167 + 
+    491248605*x23^166 + 1255113755*x23^165 + 1336021528*x23^164 + 
+    345510891*x23^163 + 317582696*x23^162 + 1827966583*x23^161 + 
+    2111205908*x23^160 + 1750177659*x23^159 + 1060485702*x23^158 + 
+    734116126*x23^157 + 1780613491*x23^156 + 802765800*x23^155 + 
+    722779144*x23^154 + 37593737*x23^153 + 1522769621*x23^152 + 
+    1699606237*x23^151 + 199358918*x23^150 + 1285764307*x23^149 + 
+    672446582*x23^148 + 1147436991*x23^147 + 652412399*x23^146 + 
+    1895210027*x23^145 + 37473503*x23^144 + 222227565*x23^143 + 
+    869458884*x23^142 + 1175233798*x23^141 + 1059449203*x23^140 + 
+    121333316*x23^139 + 691532541*x23^138 + 1203222096*x23^137 + 
+    2000416210*x23^136 + 590195519*x23^135 + 1312341509*x23^134 + 
+    891305340*x23^133 + 854298208*x23^132 + 1069197906*x23^131 + 
+    1352034695*x23^130 + 477350952*x23^129 + 729932888*x23^128 + 
+    503743262*x23^127 + 734221491*x23^126 + 359854979*x23^125 + 
+    1954835614*x23^124 + 1755584488*x23^123 + 204054382*x23^122 + 
+    1621276027*x23^121 + 2062990418*x23^120 + 234244476*x23^119 + 
+    1654159345*x23^118 + 1051532964*x23^117 + 1714399457*x23^116 + 
+    652506632*x23^115 + 1317465259*x23^114 + 1695422761*x23^113 + 
+    583224051*x23^112 + 135067082*x23^111 + 1578164972*x23^110 + 
+    14263963*x23^109 + 296721474*x23^108 + 112699307*x23^107 + 937116760*x23^106
+    + 281532628*x23^105 + 331260431*x23^104 + 1266295592*x23^103 + 
+    1266910934*x23^102 + 368690043*x23^101 + 1094129379*x23^100 + 
+    1349879286*x23^99 + 1013680562*x23^98 + 832644914*x23^97 + 42326033*x23^96 +
+    734500665*x23^95 + 1138412945*x23^94 + 1360234929*x23^93 + 13372939*x23^92 +
+    552528458*x23^91 + 1268313379*x23^90 + 731965635*x23^89 + 375045173*x23^88 +
+    476164050*x23^87 + 95054731*x23^86 + 628042087*x23^85 + 2021044828*x23^84 + 
+    343060689*x23^83 + 1977044274*x23^82 + 617285379*x23^81 + 508420626*x23^80 +
+    1933747941*x23^79 + 1028347776*x23^78 + 385921219*x23^77 + 1939368951*x23^76
+    + 469199529*x23^75 + 608785131*x23^74 + 503109140*x23^73 + 855053735*x23^72 
+    + 503387324*x23^71 + 849639659*x23^70 + 1266979069*x23^69 + 980101545*x23^68
+    + 296764441*x23^67 + 1777282292*x23^66 + 190853657*x23^65 + 488586484*x23^64
+    + 1975197763*x23^63 + 1421478178*x23^62 + 2113700268*x23^61 + 
+    1315762301*x23^60 + 2143740988*x23^59 + 103803372*x23^58 + 405605272*x23^57 
+    + 1700918571*x23^56 + 1952146119*x23^55 + 1215575278*x23^54 + 
+    487431910*x23^53 + 807468919*x23^52 + 483454540*x23^51 + 663129987*x23^50 + 
+    1621659403*x23^49 + 317970346*x23^48 + 1061556238*x23^47 + 157085623*x23^46 
+    + 1090596553*x23^45 + 403536645*x23^44 + 1102328825*x23^43 + 
+    2073335383*x23^42 + 1654584606*x23^41 + 592159650*x23^40 + 2021754104*x23^39
+    + 1684681526*x23^38 + 730511011*x23^37 + 1722774042*x23^36 + 
+    1449784031*x23^35 + 126946704*x23^34 + 691296004*x23^33 + 2034971642*x23^32 
+    + 1329524806*x23^31 + 1866493969*x23^30 + 1015441760*x23^29 + 
+    924728488*x23^28 + 1327689976*x23^27 + 1484967141*x23^26 + 1611598948*x23^25
+    + 1016805742*x23^24 + 638618191*x23^23 + 61101453*x23^22 + 1422495532*x23^21
+    + 510602193*x23^20 + 141115582*x23^19 + 810129990*x23^18 + 290949734*x23^17 
+    + 1539362600*x23^16 + 1993315027*x23^15 + 1210418974*x23^14 + 
+    324463978*x23^13 + 190424962*x23^12 + 1168240416*x23^11 + 675115226*x23^10 +
+    1857676771*x23^9 + 432637108*x23^8 + 2053232568*x23^7 + 2008831806*x23^6 + 
+    543583340*x23^5 + 1746301358*x23^4 + 78432914*x23^3 + 973603595*x23^2 + 
+    1467739639*x23 + 1468492362
+
+Step 261, 256 columns
+Monomial 256: x19
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 4, leading monomial: x19, 1.016[r]
+Polynomial: x19 + 1229591934*x23^255 + 417649963*x23^254 + 162382322*x23^253 + 
+    1882568967*x23^252 + 714829395*x23^251 + 1889167036*x23^250 + 
+    1724195640*x23^249 + 1065752716*x23^248 + 281523412*x23^247 + 
+    351864878*x23^246 + 2045680207*x23^245 + 931497759*x23^244 + 
+    1237924182*x23^243 + 1653752718*x23^242 + 1387888223*x23^241 + 
+    1042284798*x23^240 + 2048916201*x23^239 + 419792042*x23^238 + 
+    1490145763*x23^237 + 1527830381*x23^236 + 924553184*x23^235 + 
+    1440760934*x23^234 + 1003851683*x23^233 + 1802145533*x23^232 + 
+    1229886963*x23^231 + 486267959*x23^230 + 1182556950*x23^229 + 
+    1923904958*x23^228 + 570760688*x23^227 + 1745146430*x23^226 + 
+    1719093104*x23^225 + 297249797*x23^224 + 514254168*x23^223 + 
+    59857097*x23^222 + 1157392142*x23^221 + 964908494*x23^220 + 
+    545325396*x23^219 + 1527034688*x23^218 + 1317466938*x23^217 + 
+    1521936861*x23^216 + 1730217646*x23^215 + 687546940*x23^214 + 
+    1927860347*x23^213 + 416723589*x23^212 + 537239454*x23^211 + 
+    1364479734*x23^210 + 1128474927*x23^209 + 236869747*x23^208 + 
+    992389171*x23^207 + 1871927815*x23^206 + 254424952*x23^205 + 
+    146216353*x23^204 + 1384187152*x23^203 + 1112316325*x23^202 + 
+    232641101*x23^201 + 1979979338*x23^200 + 1368444878*x23^199 + 
+    185386359*x23^198 + 1145306746*x23^197 + 432769785*x23^196 + 
+    110594493*x23^195 + 1690894038*x23^194 + 827979909*x23^193 + 
+    1086326102*x23^192 + 1584044482*x23^191 + 509568054*x23^190 + 
+    1008653771*x23^189 + 504198672*x23^188 + 1622476140*x23^187 + 
+    593635088*x23^186 + 420070021*x23^185 + 46646304*x23^184 + 
+    1074558486*x23^183 + 934284403*x23^182 + 1582238555*x23^181 + 
+    208435398*x23^180 + 63242090*x23^179 + 1212835177*x23^178 + 
+    1700544365*x23^177 + 687143371*x23^176 + 706334503*x23^175 + 
+    480657009*x23^174 + 66829421*x23^173 + 1150801537*x23^172 + 
+    1826632700*x23^171 + 367559282*x23^170 + 1165655306*x23^169 + 
+    752375079*x23^168 + 1132494093*x23^167 + 44425355*x23^166 + 
+    1592946011*x23^165 + 174019656*x23^164 + 1318159189*x23^163 + 
+    99100877*x23^162 + 1622593871*x23^161 + 265743726*x23^160 + 
+    282164713*x23^159 + 816160916*x23^158 + 2073723119*x23^157 + 
+    1828134918*x23^156 + 1886196150*x23^155 + 1665244789*x23^154 + 
+    391787623*x23^153 + 1469330150*x23^152 + 234369493*x23^151 + 
+    566861933*x23^150 + 1272700992*x23^149 + 737373196*x23^148 + 
+    1869252763*x23^147 + 1440076354*x23^146 + 1681921811*x23^145 + 
+    1815396012*x23^144 + 361214451*x23^143 + 338711423*x23^142 + 
+    2087342002*x23^141 + 1289856089*x23^140 + 826563940*x23^139 + 
+    1313445967*x23^138 + 882138961*x23^137 + 825157857*x23^136 + 
+    1239336757*x23^135 + 721574614*x23^134 + 231299495*x23^133 + 
+    1100024382*x23^132 + 511454869*x23^131 + 1365915516*x23^130 + 
+    777416836*x23^129 + 858328630*x23^128 + 1378035952*x23^127 + 
+    1724041497*x23^126 + 171672391*x23^125 + 422854087*x23^124 + 
+    2021495711*x23^123 + 612013026*x23^122 + 204593577*x23^121 + 
+    816650239*x23^120 + 906624017*x23^119 + 1520337089*x23^118 + 
+    1162975042*x23^117 + 1225101483*x23^116 + 1615013212*x23^115 + 
+    1607523731*x23^114 + 60532092*x23^113 + 860256851*x23^112 + 65609901*x23^111
+    + 1537040535*x23^110 + 1523058714*x23^109 + 1022995002*x23^108 + 
+    780952821*x23^107 + 446885759*x23^106 + 548471055*x23^105 + 
+    495322395*x23^104 + 439317360*x23^103 + 721720767*x23^102 + 
+    145390164*x23^101 + 2087989335*x23^100 + 1517482263*x23^99 + 
+    1087138414*x23^98 + 1522789244*x23^97 + 1689104417*x23^96 + 
+    1832872180*x23^95 + 741578499*x23^94 + 59015991*x23^93 + 1396135128*x23^92 +
+    1896003643*x23^91 + 1892995837*x23^90 + 1040338334*x23^89 + 
+    1301097362*x23^88 + 1838314008*x23^87 + 1252289544*x23^86 + 
+    1932607050*x23^85 + 1949077233*x23^84 + 482338515*x23^83 + 1451030794*x23^82
+    + 1184707943*x23^81 + 1069514967*x23^80 + 1818636575*x23^79 + 
+    821863178*x23^78 + 748353990*x23^77 + 708524304*x23^76 + 65032323*x23^75 + 
+    596345188*x23^74 + 904861302*x23^73 + 304060925*x23^72 + 1745470611*x23^71 +
+    1617507852*x23^70 + 798570207*x23^69 + 103309718*x23^68 + 1410911482*x23^67 
+    + 1299089561*x23^66 + 1761847496*x23^65 + 1520456409*x23^64 + 
+    2110866625*x23^63 + 907080487*x23^62 + 367079326*x23^61 + 1086643153*x23^60 
+    + 761716183*x23^59 + 2057173714*x23^58 + 220728339*x23^57 + 80398560*x23^56 
+    + 407784029*x23^55 + 538916905*x23^54 + 1368991065*x23^53 + 
+    2130421809*x23^52 + 1250471483*x23^51 + 1429153702*x23^50 + 145520215*x23^49
+    + 327477234*x23^48 + 722172616*x23^47 + 421094672*x23^46 + 1664281796*x23^45
+    + 2120167650*x23^44 + 2050781874*x23^43 + 997440996*x23^42 + 
+    680060490*x23^41 + 3618488*x23^40 + 963848011*x23^39 + 2105603647*x23^38 + 
+    2004290734*x23^37 + 1195240801*x23^36 + 40657135*x23^35 + 1345150834*x23^34 
+    + 1907118139*x23^33 + 1602177370*x23^32 + 597023798*x23^31 + 
+    1326444318*x23^30 + 1588297385*x23^29 + 761268699*x23^28 + 1950227878*x23^27
+    + 627828347*x23^26 + 900073954*x23^25 + 1266353175*x23^24 + 497888926*x23^23
+    + 1917243901*x23^22 + 579147691*x23^21 + 2020507536*x23^20 + 
+    849353178*x23^19 + 835014435*x23^18 + 1087052906*x23^17 + 1100580295*x23^16 
+    + 1786700924*x23^15 + 689371464*x23^14 + 996071157*x23^13 + 721219045*x23^12
+    + 429973559*x23^11 + 1268525629*x23^10 + 2127751321*x23^9 + 1299972556*x23^8
+    + 1835109976*x23^7 + 1629417053*x23^6 + 1524480253*x23^5 + 377887300*x23^4 +
+    158534255*x23^3 + 1560662494*x23^2 + 94113977*x23 + 569456718
+
+Step 262, 256 columns
+Monomial 256: x18
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 5, leading monomial: x18, 1.017[r]
+Polynomial: x18 + 676051269*x23^255 + 1629638900*x23^254 + 1100812062*x23^253 + 
+    1188082791*x23^252 + 1410511705*x23^251 + 1712736444*x23^250 + 
+    19602917*x23^249 + 945910153*x23^248 + 339793245*x23^247 + 
+    1264357161*x23^246 + 33522137*x23^245 + 2018714941*x23^244 + 
+    1517716350*x23^243 + 1525975611*x23^242 + 2059740686*x23^241 + 
+    629390519*x23^240 + 718286450*x23^239 + 911776281*x23^238 + 
+    1553362652*x23^237 + 533703306*x23^236 + 2027618047*x23^235 + 
+    315369278*x23^234 + 357935003*x23^233 + 1951008508*x23^232 + 
+    39598185*x23^231 + 1833745024*x23^230 + 1857318106*x23^229 + 
+    1702857652*x23^228 + 1117637568*x23^227 + 427183156*x23^226 + 
+    2122772322*x23^225 + 1917647174*x23^224 + 565211357*x23^223 + 
+    397005700*x23^222 + 1556607300*x23^221 + 2129941094*x23^220 + 
+    1113293342*x23^219 + 2000800391*x23^218 + 1571346148*x23^217 + 
+    617947436*x23^216 + 719266537*x23^215 + 1826612706*x23^214 + 
+    770712371*x23^213 + 1525264100*x23^212 + 1594710655*x23^211 + 
+    1280086890*x23^210 + 1991969726*x23^209 + 24340557*x23^208 + 
+    104192089*x23^207 + 186150817*x23^206 + 1760709189*x23^205 + 
+    798643443*x23^204 + 281319922*x23^203 + 635080674*x23^202 + 
+    1908838821*x23^201 + 1691940011*x23^200 + 1583320864*x23^199 + 
+    1421838623*x23^198 + 2070189249*x23^197 + 2047955069*x23^196 + 
+    519525390*x23^195 + 495172554*x23^194 + 754339375*x23^193 + 
+    748978294*x23^192 + 1147608874*x23^191 + 911914441*x23^190 + 
+    1505535531*x23^189 + 1474314849*x23^188 + 1746580760*x23^187 + 
+    926080559*x23^186 + 540942180*x23^185 + 1055461088*x23^184 + 
+    351093895*x23^183 + 562170371*x23^182 + 405624228*x23^181 + 
+    716910690*x23^180 + 417133324*x23^179 + 571958102*x23^178 + 
+    579099656*x23^177 + 2134613018*x23^176 + 1709916979*x23^175 + 
+    902166495*x23^174 + 2118319662*x23^173 + 1058063867*x23^172 + 
+    1882197606*x23^171 + 1202479639*x23^170 + 1827458126*x23^169 + 
+    1633350893*x23^168 + 1558192913*x23^167 + 1819053739*x23^166 + 
+    204886252*x23^165 + 1072214924*x23^164 + 1301565879*x23^163 + 
+    815621941*x23^162 + 1232427432*x23^161 + 572525196*x23^160 + 
+    33196939*x23^159 + 536424338*x23^158 + 1721664623*x23^157 + 
+    704457899*x23^156 + 632227243*x23^155 + 511014518*x23^154 + 9601834*x23^153 
+    + 1162356563*x23^152 + 1379229105*x23^151 + 803284945*x23^150 + 
+    1549988166*x23^149 + 1861785855*x23^148 + 887861467*x23^147 + 
+    538853042*x23^146 + 2128218050*x23^145 + 2062914032*x23^144 + 
+    2062579332*x23^143 + 1345956397*x23^142 + 2034965517*x23^141 + 
+    765255626*x23^140 + 874932313*x23^139 + 1911082139*x23^138 + 
+    310492092*x23^137 + 1805668680*x23^136 + 954620638*x23^135 + 
+    715367396*x23^134 + 680310564*x23^133 + 2020748428*x23^132 + 
+    1788522612*x23^131 + 1638612312*x23^130 + 944596531*x23^129 + 
+    2023162507*x23^128 + 363734334*x23^127 + 1668988289*x23^126 + 
+    1710704473*x23^125 + 1047975335*x23^124 + 1014400778*x23^123 + 
+    232544340*x23^122 + 858818619*x23^121 + 784901832*x23^120 + 
+    178467524*x23^119 + 2000737910*x23^118 + 2108099000*x23^117 + 
+    2042423044*x23^116 + 1968051636*x23^115 + 29684634*x23^114 + 
+    1405862358*x23^113 + 1626348441*x23^112 + 1967947131*x23^111 + 
+    1964035212*x23^110 + 1068113740*x23^109 + 501921937*x23^108 + 
+    293075723*x23^107 + 1783137625*x23^106 + 1734757647*x23^105 + 
+    871683879*x23^104 + 1678541667*x23^103 + 655682207*x23^102 + 
+    28626170*x23^101 + 203711944*x23^100 + 186663133*x23^99 + 527823107*x23^98 +
+    1846072064*x23^97 + 1223571035*x23^96 + 1236399952*x23^95 + 380703786*x23^94
+    + 145544805*x23^93 + 956298597*x23^92 + 942670095*x23^91 + 488426635*x23^90 
+    + 44758305*x23^89 + 313226799*x23^88 + 1312698497*x23^87 + 527722773*x23^86 
+    + 365072682*x23^85 + 911291202*x23^84 + 515586332*x23^83 + 892649431*x23^82 
+    + 1686823117*x23^81 + 262274605*x23^80 + 725208362*x23^79 + 234022166*x23^78
+    + 591480629*x23^77 + 798708287*x23^76 + 1370491456*x23^75 + 
+    1978104786*x23^74 + 1294045514*x23^73 + 1649570623*x23^72 + 
+    1156575901*x23^71 + 1246065568*x23^70 + 1072036462*x23^69 + 838565164*x23^68
+    + 1229141571*x23^67 + 1110548442*x23^66 + 29093508*x23^65 + 443798679*x23^64
+    + 730160197*x23^63 + 1557212293*x23^62 + 1353419995*x23^61 + 
+    1241697444*x23^60 + 1078558997*x23^59 + 594964613*x23^58 + 670542984*x23^57 
+    + 1629244956*x23^56 + 908852738*x23^55 + 264591512*x23^54 + 
+    1970649799*x23^53 + 348341837*x23^52 + 2118141539*x23^51 + 1710286571*x23^50
+    + 1433756982*x23^49 + 1404568934*x23^48 + 1369258810*x23^47 + 
+    868262234*x23^46 + 1158999628*x23^45 + 1172043459*x23^44 + 666343462*x23^43 
+    + 430308897*x23^42 + 1938487692*x23^41 + 2082638323*x23^40 + 
+    1596141920*x23^39 + 1580670473*x23^38 + 1890002835*x23^37 + 
+    1864363244*x23^36 + 1872655162*x23^35 + 786747082*x23^34 + 696034061*x23^33 
+    + 298970518*x23^32 + 1827892521*x23^31 + 758785577*x23^30 + 
+    1935947955*x23^29 + 680088524*x23^28 + 687824015*x23^27 + 821292590*x23^26 +
+    2044877066*x23^25 + 165711484*x23^24 + 1344206085*x23^23 + 1623946180*x23^22
+    + 1616952169*x23^21 + 1994363183*x23^20 + 1315791384*x23^19 + 
+    627196983*x23^18 + 841991823*x23^17 + 575369225*x23^16 + 1817605301*x23^15 +
+    1673385638*x23^14 + 1967457786*x23^13 + 488858010*x23^12 + 968977821*x23^11 
+    + 1979546847*x23^10 + 2059175736*x23^9 + 2048582615*x23^8 + 166316566*x23^7 
+    + 179900800*x23^6 + 678904056*x23^5 + 1746899686*x23^4 + 179678601*x23^3 + 
+    1562372500*x23^2 + 148399004*x23 + 960190171
+
+Step 263, 256 columns
+Monomial 256: x17
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 6, leading monomial: x17, 1.017[r]
+Polynomial: x17 + 735539135*x23^255 + 1082955371*x23^254 + 503299364*x23^253 + 
+    1699121209*x23^252 + 1659677757*x23^251 + 1990866457*x23^250 + 
+    1882264049*x23^249 + 1630282176*x23^248 + 2107032616*x23^247 + 
+    1211305590*x23^246 + 1428016218*x23^245 + 1200071194*x23^244 + 
+    1675183742*x23^243 + 2093875965*x23^242 + 1817416200*x23^241 + 
+    1552573236*x23^240 + 73451576*x23^239 + 412102204*x23^238 + 
+    814966096*x23^237 + 1595352824*x23^236 + 1540897621*x23^235 + 
+    1099460890*x23^234 + 1507959996*x23^233 + 398020268*x23^232 + 
+    1890054368*x23^231 + 174485917*x23^230 + 1339732064*x23^229 + 
+    1996789489*x23^228 + 884021346*x23^227 + 2084081006*x23^226 + 
+    1668785706*x23^225 + 822535341*x23^224 + 755468385*x23^223 + 
+    2080372802*x23^222 + 1246605919*x23^221 + 2133714515*x23^220 + 
+    1347929413*x23^219 + 622053296*x23^218 + 1809018028*x23^217 + 
+    1087760721*x23^216 + 609994982*x23^215 + 140370179*x23^214 + 
+    1188148780*x23^213 + 395227932*x23^212 + 1161448454*x23^211 + 
+    1904977475*x23^210 + 611922259*x23^209 + 1601678395*x23^208 + 
+    479624875*x23^207 + 1131253972*x23^206 + 1289850545*x23^205 + 
+    1533670426*x23^204 + 1833877193*x23^203 + 1005930517*x23^202 + 
+    1651476219*x23^201 + 1273917928*x23^200 + 564407947*x23^199 + 
+    523303137*x23^198 + 1968821428*x23^197 + 2037892775*x23^196 + 
+    1877217480*x23^195 + 1644070405*x23^194 + 337485386*x23^193 + 
+    1975470925*x23^192 + 700856912*x23^191 + 1013403259*x23^190 + 
+    1650749630*x23^189 + 1941241864*x23^188 + 2036537890*x23^187 + 
+    358392013*x23^186 + 360036190*x23^185 + 1689321849*x23^184 + 
+    923406376*x23^183 + 582808487*x23^182 + 77465028*x23^181 + 938595004*x23^180
+    + 547712575*x23^179 + 619051760*x23^178 + 1293652394*x23^177 + 
+    933577007*x23^176 + 2118954390*x23^175 + 1311034329*x23^174 + 
+    1851395856*x23^173 + 1144283655*x23^172 + 1775813017*x23^171 + 
+    670435850*x23^170 + 605350445*x23^169 + 1549422578*x23^168 + 
+    95373732*x23^167 + 1620048795*x23^166 + 311144803*x23^165 + 
+    1274195696*x23^164 + 1456929333*x23^163 + 1303719067*x23^162 + 
+    1939114145*x23^161 + 96895842*x23^160 + 325097686*x23^159 + 
+    149191126*x23^158 + 1271557302*x23^157 + 1835367743*x23^156 + 
+    1386128466*x23^155 + 1526148734*x23^154 + 356050340*x23^153 + 
+    2028474610*x23^152 + 1677703422*x23^151 + 477555593*x23^150 + 
+    1877427354*x23^149 + 295163082*x23^148 + 350673855*x23^147 + 
+    1212655848*x23^146 + 1910448194*x23^145 + 341596433*x23^144 + 
+    139927043*x23^143 + 1686208717*x23^142 + 1739289736*x23^141 + 
+    2130539408*x23^140 + 331019053*x23^139 + 1198896773*x23^138 + 
+    1010912736*x23^137 + 1519181346*x23^136 + 951169430*x23^135 + 
+    1988656686*x23^134 + 473563945*x23^133 + 2067938225*x23^132 + 
+    459409293*x23^131 + 260511552*x23^130 + 673328461*x23^129 + 16677556*x23^128
+    + 1017756805*x23^127 + 776565242*x23^126 + 1217966459*x23^125 + 
+    1354640318*x23^124 + 1107874157*x23^123 + 291746952*x23^122 + 
+    767854324*x23^121 + 1685165964*x23^120 + 2065069587*x23^119 + 
+    1601830205*x23^118 + 2088589742*x23^117 + 1937811568*x23^116 + 
+    939013922*x23^115 + 1780501782*x23^114 + 1084147861*x23^113 + 
+    26862486*x23^112 + 44824829*x23^111 + 46144466*x23^110 + 1855403171*x23^109 
+    + 1826680318*x23^108 + 2017553574*x23^107 + 637763060*x23^106 + 
+    2064735598*x23^105 + 811860673*x23^104 + 543975737*x23^103 + 
+    679752784*x23^102 + 1369841276*x23^101 + 217579834*x23^100 + 
+    2058724857*x23^99 + 1936748195*x23^98 + 660417499*x23^97 + 735948377*x23^96 
+    + 1388066959*x23^95 + 1336836131*x23^94 + 965767325*x23^93 + 
+    422145139*x23^92 + 881772417*x23^91 + 185648849*x23^90 + 2013092544*x23^89 +
+    1765317792*x23^88 + 320608011*x23^87 + 1307060118*x23^86 + 388179459*x23^85 
+    + 617698007*x23^84 + 281744458*x23^83 + 521029205*x23^82 + 1905459418*x23^81
+    + 797483056*x23^80 + 376681*x23^79 + 1695179702*x23^78 + 2104160549*x23^77 +
+    534870822*x23^76 + 325621345*x23^75 + 13561585*x23^74 + 39521897*x23^73 + 
+    1400519525*x23^72 + 1732050919*x23^71 + 1931127770*x23^70 + 57048022*x23^69 
+    + 980072447*x23^68 + 2058827980*x23^67 + 170058776*x23^66 + 224351508*x23^65
+    + 544113827*x23^64 + 2029816855*x23^63 + 1102377210*x23^62 + 
+    1720239189*x23^61 + 1573219063*x23^60 + 122601335*x23^59 + 1794348431*x23^58
+    + 835073069*x23^57 + 872466285*x23^56 + 595069965*x23^55 + 608738466*x23^54 
+    + 692587383*x23^53 + 1109010124*x23^52 + 1298055428*x23^51 + 
+    1033622912*x23^50 + 99870489*x23^49 + 1374573905*x23^48 + 778674212*x23^47 +
+    1863654936*x23^46 + 417216182*x23^45 + 399090728*x23^44 + 995829699*x23^43 +
+    1148590417*x23^42 + 742176793*x23^41 + 838505721*x23^40 + 89989796*x23^39 + 
+    841192428*x23^38 + 1247966162*x23^37 + 1917783750*x23^36 + 2009031805*x23^35
+    + 200207463*x23^34 + 1933880071*x23^33 + 1571324853*x23^32 + 
+    1280639375*x23^31 + 1889000411*x23^30 + 1288461634*x23^29 + 568567185*x23^28
+    + 1540909927*x23^27 + 128912993*x23^26 + 1610201032*x23^25 + 
+    938909706*x23^24 + 185851151*x23^23 + 459325370*x23^22 + 1240915309*x23^21 +
+    130118438*x23^20 + 292715072*x23^19 + 912488054*x23^18 + 1553806409*x23^17 +
+    529465800*x23^16 + 1837200849*x23^15 + 235068166*x23^14 + 484170935*x23^13 +
+    796291603*x23^12 + 1889952820*x23^11 + 1498860619*x23^10 + 644222709*x23^9 +
+    1490874103*x23^8 + 1317455195*x23^7 + 1701967687*x23^6 + 2086709166*x23^5 + 
+    1260592456*x23^4 + 821029396*x23^3 + 1319648264*x23^2 + 2107923141*x23 + 
+    1084019216
+
+Step 264, 256 columns
+Monomial 256: x16
+Best monomial: 1
+Row 256: pivot -1
+New polynomial 7, leading monomial: x16, 1.018[r]
+Polynomial: x16 + 1958862150*x23^255 + 260340503*x23^254 + 1336302205*x23^253 + 
+    1190517704*x23^252 + 826777490*x23^251 + 1402409200*x23^250 + 
+    510229235*x23^249 + 457059258*x23^248 + 1277334526*x23^247 + 
+    1529675129*x23^246 + 559034055*x23^245 + 128790874*x23^244 + 
+    1272446918*x23^243 + 1812526910*x23^242 + 1227680138*x23^241 + 
+    1969707186*x23^240 + 1444296618*x23^239 + 2094238273*x23^238 + 
+    1978440899*x23^237 + 115309438*x23^236 + 429158061*x23^235 + 
+    453228745*x23^234 + 165078731*x23^233 + 184419645*x23^232 + 
+    1845020891*x23^231 + 94801924*x23^230 + 1230731770*x23^229 + 
+    408049182*x23^228 + 2120152030*x23^227 + 1003311255*x23^226 + 
+    1463116137*x23^225 + 1682476162*x23^224 + 319001814*x23^223 + 
+    895380580*x23^222 + 1370298700*x23^221 + 778179991*x23^220 + 
+    1939757789*x23^219 + 719484963*x23^218 + 1035440983*x23^217 + 
+    87933561*x23^216 + 243770954*x23^215 + 838588815*x23^214 + 
+    1171491238*x23^213 + 1653828584*x23^212 + 1314368537*x23^211 + 
+    845647870*x23^210 + 2080433992*x23^209 + 1126640410*x23^208 + 
+    96371766*x23^207 + 809479398*x23^206 + 2062047019*x23^205 + 
+    1725887515*x23^204 + 947640283*x23^203 + 1301827616*x23^202 + 
+    1064269588*x23^201 + 1754518944*x23^200 + 643355015*x23^199 + 
+    1783342110*x23^198 + 1063234820*x23^197 + 1390211910*x23^196 + 
+    979519044*x23^195 + 1219938118*x23^194 + 1295544470*x23^193 + 
+    292462150*x23^192 + 1766345163*x23^191 + 1607656724*x23^190 + 
+    321761633*x23^189 + 1721309771*x23^188 + 8738823*x23^187 + 
+    1599645741*x23^186 + 129976920*x23^185 + 103767341*x23^184 + 
+    1275142909*x23^183 + 1771303172*x23^182 + 234156541*x23^181 + 
+    416083304*x23^180 + 1783013846*x23^179 + 1255838407*x23^178 + 
+    1976317071*x23^177 + 1469929082*x23^176 + 2089569658*x23^175 + 
+    316350042*x23^174 + 131777666*x23^173 + 2007524973*x23^172 + 
+    1105171348*x23^171 + 1762231398*x23^170 + 334304901*x23^169 + 
+    71848711*x23^168 + 919002550*x23^167 + 1061237792*x23^166 + 
+    1554616557*x23^165 + 27714904*x23^164 + 1953078313*x23^163 + 
+    1363190595*x23^162 + 255067351*x23^161 + 2113022066*x23^160 + 
+    1369372940*x23^159 + 1427031643*x23^158 + 739323047*x23^157 + 
+    100052901*x23^156 + 317806723*x23^155 + 1690227698*x23^154 + 
+    264955496*x23^153 + 527692291*x23^152 + 1552296963*x23^151 + 
+    1341557823*x23^150 + 490204511*x23^149 + 1714850760*x23^148 + 
+    637070153*x23^147 + 1942807505*x23^146 + 889959464*x23^145 + 
+    1476307998*x23^144 + 1994698359*x23^143 + 1171385811*x23^142 + 
+    1496237587*x23^141 + 1018533166*x23^140 + 2069782632*x23^139 + 
+    326736078*x23^138 + 529665010*x23^137 + 83638677*x23^136 + 654708597*x23^135
+    + 352897065*x23^134 + 1142225743*x23^133 + 233308841*x23^132 + 
+    1767790744*x23^131 + 1667122241*x23^130 + 1392623703*x23^129 + 
+    1532394410*x23^128 + 188920083*x23^127 + 856788778*x23^126 + 
+    1196956542*x23^125 + 1913623541*x23^124 + 157278182*x23^123 + 
+    1169645638*x23^122 + 211945437*x23^121 + 2104238659*x23^120 + 
+    239115510*x23^119 + 1003724747*x23^118 + 1068005792*x23^117 + 
+    684847477*x23^116 + 1335989981*x23^115 + 2098140431*x23^114 + 
+    721644927*x23^113 + 414139159*x23^112 + 1361542119*x23^111 + 
+    363549710*x23^110 + 215703490*x23^109 + 913628286*x23^108 + 
+    2008870010*x23^107 + 1108315357*x23^106 + 1411045655*x23^105 + 
+    1258934650*x23^104 + 1417647140*x23^103 + 1586374838*x23^102 + 
+    1452393894*x23^101 + 2017633937*x23^100 + 1524319715*x23^99 + 
+    31190527*x23^98 + 1635687855*x23^97 + 1018493765*x23^96 + 1087671869*x23^95 
+    + 614735820*x23^94 + 1634272508*x23^93 + 1656614525*x23^92 + 
+    191176446*x23^91 + 1305973731*x23^90 + 1553099971*x23^89 + 1334297608*x23^88
+    + 1073968425*x23^87 + 1551666515*x23^86 + 1562451161*x23^85 + 
+    1833140224*x23^84 + 581817153*x23^83 + 1599380553*x23^82 + 680795437*x23^81 
+    + 98801037*x23^80 + 329457579*x23^79 + 1074527154*x23^78 + 89590559*x23^77 +
+    518260359*x23^76 + 1761919782*x23^75 + 50386829*x23^74 + 71578008*x23^73 + 
+    1285279859*x23^72 + 1670215856*x23^71 + 293641381*x23^70 + 486522064*x23^69 
+    + 1486912782*x23^68 + 606868778*x23^67 + 964731363*x23^66 + 398346637*x23^65
+    + 1517178410*x23^64 + 1883965265*x23^63 + 517077994*x23^62 + 
+    419585754*x23^61 + 1578100612*x23^60 + 765672345*x23^59 + 1232094872*x23^58 
+    + 1742260513*x23^57 + 1925827803*x23^56 + 1735017903*x23^55 + 
+    2070766078*x23^54 + 505484868*x23^53 + 1856680108*x23^52 + 873533719*x23^51 
+    + 1472406219*x23^50 + 895388517*x23^49 + 1903055988*x23^48 + 
+    1835665583*x23^47 + 357971050*x23^46 + 2030825848*x23^45 + 1620238906*x23^44
+    + 1866108212*x23^43 + 256518873*x23^42 + 282679944*x23^41 + 160304048*x23^40
+    + 2110306215*x23^39 + 355173388*x23^38 + 493710063*x23^37 + 243583219*x23^36
+    + 1855151124*x23^35 + 1136304028*x23^34 + 2143433228*x23^33 + 
+    1161156924*x23^32 + 877046751*x23^31 + 1209712930*x23^30 + 1941072755*x23^29
+    + 155831763*x23^28 + 803347088*x23^27 + 41178764*x23^26 + 2049260836*x23^25 
+    + 25726333*x23^24 + 1011005375*x23^23 + 932146161*x23^22 + 519276154*x23^21 
+    + 733569279*x23^20 + 1573475641*x23^19 + 1624082210*x23^18 + 
+    603282754*x23^17 + 621200014*x23^16 + 129226340*x23^15 + 1703998286*x23^14 +
+    2005020580*x23^13 + 1982588419*x23^12 + 221597497*x23^11 + 359546990*x23^10 
+    + 1909415481*x23^9 + 631563746*x23^8 + 1088445589*x23^7 + 357132658*x23^6 + 
+    1883647926*x23^5 + 1251048755*x23^4 + 625944249*x23^3 + 1926033858*x23^2 + 
+    1722531410*x23 + 1266208914
+Total FGLM time: 1.021[r]
+Time: 1.030
+8
+[ 255, 255, 255, 255, 255, 255, 255, 256 ]
+---------------
+VARIETY computation
+---------------
+Time: 0.030
+[ <884602, 925685073, 1563443040, 446251067, 1845709392, 703631850, 380490406, 
+387307289>, <647080879, 47175424, 861597651, 1873704355, 2058866810, 108994979, 
+1047375032, 50498966>, <721806300, 627841533, 106613367, 2131083749, 318212041, 
+1760752042, 1064120877, 2105227480> ]
+3
+
+Total time: 7.230 [6.441] seconds, Total memory usage: 32.09MB
+6.85user 0.38system 0:06.45elapsed 112%CPU (0avgtext+0avgdata 36068maxresident)k
+0inputs+0outputs (2major+2138minor)pagefaults 0swaps
